@@ -2351,6 +2351,30 @@
             ]
         },
         {
+            "id": "Configuration Files (*.conf)|*.conf",
+            "message": "Configuration Files (*.conf)|*.conf",
+            "translation": "Configuration Files (*.conf)|*.conf",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "Export tunnel ‘{Name}’",
+            "message": "Export tunnel ‘{Name}’",
+            "translation": "Export tunnel ‘{Name}’",
+            "translatorComment": "Copied from source.",
+            "placeholders": [
+                {
+                    "id": "Name",
+                    "string": "%[1]s",
+                    "type": "string",
+                    "underlyingType": "string",
+                    "argNum": 1,
+                    "expr": "name"
+                }
+            ],
+            "fuzzy": true
+        },
+        {
             "id": "Configuration ZIP Files (*.zip)|*.zip",
             "message": "Configuration ZIP Files (*.zip)|*.zip",
             "translation": "Configuration ZIP Files (*.zip)|*.zip",

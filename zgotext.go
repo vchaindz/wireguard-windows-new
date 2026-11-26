@@ -78,10 +78,10 @@ func init() {
 
 var messageKeyToIndex = map[string]int{
 	"%.0f":                          171,
-	"%.0f %%":                       361,
-	"%.0f ms":                       360,
+	"%.0f %%":                       363,
+	"%.0f ms":                       362,
 	"%.1f":                          172,
-	"%.1f ms":                       359,
+	"%.1f ms":                       361,
 	"%.2f":                          173,
 	"%.2f\u00a0GiB":                 128,
 	"%.2f\u00a0KiB":                 126,
@@ -90,47 +90,47 @@ var messageKeyToIndex = map[string]int{
 	"%[1]s %[2]s":                   204,
 	"%[1]s %[2]s %[3]s":             203,
 	"%[1]s %[2]s %[3]s %[4]s":       202,
-	"%d":                            383,
-	"%d d %d h":                     373,
+	"%d":                            385,
+	"%d d %d h":                     375,
 	"%d d ago":                      180,
 	"%d day(s)":                     14,
-	"%d h %d min":                   372,
+	"%d h %d min":                   374,
 	"%d h ago":                      179,
-	"%d handshakes":                 355,
+	"%d handshakes":                 357,
 	"%d hour(s)":                    15,
-	"%d in, %d out":                 380,
-	"%d min":                        371,
+	"%d in, %d out":                 382,
+	"%d min":                        373,
 	"%d min ago":                    178,
 	"%d minute(s)":                  16,
 	"%d of %d lost":                 143,
-	"%d of %d probes lost":          356,
-	"%d reconnects":                 354,
-	"%d reconnects · %d handshakes": 357,
-	"%d s":                          370,
+	"%d of %d probes lost":          358,
+	"%d reconnects":                 356,
+	"%d reconnects · %d handshakes": 359,
+	"%d s":                          372,
 	"%d s ago":                      177,
 	"%d second(s)":                  17,
 	"%d year(s)":                    13,
 	"%d\u00a0B":                     125,
 	"%d\u00a0B/s":                   174,
 	"%s\n\nPlease consult the log for more information.": 73,
-	"%s (%d of %d in the last minute)":                   391,
-	"%s (%s)":                                            258,
-	"%s (+%d)":                                           403,
+	"%s (%d of %d in the last minute)":                   393,
+	"%s (%s)":                                            260,
+	"%s (+%d)":                                           405,
 	"%s (out of date)":                                   74,
 	"%s (unsigned build, no updates)":                    114,
 	"%s You cannot undo this action.":                    80,
 	"%s ago":                                             18,
-	"%s loss":                                            362,
+	"%s loss":                                            364,
 	"%s lost":                                            141,
 	"%s of active time connected, over the last %d days":                                                   219,
-	"%s of the test pings in the last minute got no answer. Pages may load slowly and calls may break up.": 367,
-	"%s received, %s sent":     321,
+	"%s of the test pings in the last minute got no answer. Pages may load slowly and calls may break up.": 369,
+	"%s received, %s sent":     323,
 	"%s · %s":                  223,
-	"%s · %s loss":             363,
+	"%s · %s loss":             365,
 	"%s · active %s":           206,
-	"%s · connected for %s":    404,
-	"%s · latest handshake %s": 291,
-	"%s · the tunnel MTU plus %d bytes of WireGuard does not fit; use a tunnel MTU of %s or less": 262,
+	"%s · connected for %s":    406,
+	"%s · latest handshake %s": 293,
+	"%s · the tunnel MTU plus %d bytes of WireGuard does not fit; use a tunnel MTU of %s or less": 264,
 	"%s/s":              175,
 	"%s: %q":            133,
 	"%s\u00a0GB":        169,
@@ -138,7 +138,7 @@ var messageKeyToIndex = map[string]int{
 	"%s\u00a0MB":        168,
 	"%s\u00a0TB":        170,
 	"&About WireGuard…": 71,
-	"&Address:":         265,
+	"&Address:":         267,
 	"&Block untunneled traffic (kill-switch)": 50,
 	"&Configuration:":                         53,
 	"&Copy":                                   64,
@@ -149,128 +149,130 @@ var messageKeyToIndex = map[string]int{
 	"&Save to file…":                          66,
 	"(no argument): elevate and install manager service": 2,
 	"(unknown)":                             49,
-	"0 ms":                                  358,
+	"0 ms":                                  360,
 	"1 h":                                   134,
 	"1 min":                                 136,
 	"24 h":                                  135,
 	"A name is required.":                   55,
 	"A tunnel was unable to be removed: %s": 82,
-	"About":                                 410,
+	"About":                                 412,
 	"About WireGuard":                       38,
-	"Activate":                              327,
-	"Activate %s":                           297,
-	"Activating…":                           271,
+	"Activate":                              329,
+	"Activate %s":                           299,
+	"Activating…":                           273,
 	"Active":                                63,
-	"Active for":                            375,
-	"Active · connection not verified yet":  282,
-	"Add a tunnel":                          299,
-	"Add the configuration you were given to get started.": 289,
-	"Add tunnel":                           306,
-	"Address":                              292,
-	"Address in use":                       254,
-	"Address to measure":                   263,
-	"Addresses":                            312,
+	"Active for":                            377,
+	"Active · connection not verified yet":  284,
+	"Add a tunnel":                          301,
+	"Add the configuration you were given to get started.": 291,
+	"Add tunnel":                           308,
+	"Address":                              294,
+	"Address in use":                       256,
+	"Address to measure":                   265,
+	"Addresses":                            314,
 	"All":                                  230,
 	"All peers must have public keys":      37,
-	"All traffic":                          252,
-	"Allowed IPs":                          317,
-	"Amber":                                333,
+	"All traffic":                          254,
+	"Allowed IPs":                          319,
+	"Amber":                                335,
 	"An Update is Available!":              75,
 	"An interface must have a private key": 35,
 	"An update to WireGuard is available. It is highly advisable to update without delay.":                                              117,
 	"An update to WireGuard is now available. You are advised to update as soon as possible.":                                           113,
-	"Another device appears to be using the key of the %s tunnel, which breaks connections on both. Give each device its own key pair.": 400,
-	"Another device appears to be using this tunnel's key, which breaks connections on both. Give each device its own key pair.":        284,
+	"Another device appears to be using the key of the %s tunnel, which breaks connections on both. Give each device its own key pair.": 402,
+	"Another device appears to be using this tunnel's key, which breaks connections on both. Give each device its own key pair.":        286,
 	"Another tunnel already exists with the name ‘%s’":                                                                                  88,
 	"Another tunnel already exists with the name ‘%s’.":                                                                                 59,
-	"Answers through the tunnel took %s on average in the last minute, which makes the connection feel slow.":                           369,
+	"Answers through the tunnel took %s on average in the last minute, which makes the connection feel slow.":                           371,
 	"App version: %s\nDriver version: %s\nGo version: %s\nOperating system: %s\nArchitecture: %s":                                       40,
 	"Apr": 191,
 	"Are you sure you would like to clear the connection history of tunnel ‘%s’?": 237,
 	"Are you sure you would like to delete tunnel ‘%s’?":                          235,
 	"Aug":                                   195,
-	"Blue":                                  331,
+	"Blue":                                  333,
 	"Brackets must contain an IPv6 address": 22,
-	"CONNECTION":                            323,
+	"CONNECTION":                            325,
 	"CSV Files (*.csv)|*.csv|All Files (*.*)|*.*": 240,
 	"Cancel":      44,
-	"Carried by":  259,
-	"Carrier MTU": 261,
-	"Change…":     346,
+	"Carried by":  261,
+	"Carrier MTU": 263,
+	"Change…":     348,
 	"Check the DNS servers of the tunnel, and that the server's allowed IPs for this device include them.":                                                                                                     152,
 	"Check the endpoint and port, that the server runs, that both sides have each other's public key, and that no firewall blocks UDP.":                                                                        150,
 	"Checks in order that the endpoint name resolves, the peer answers, pings and DNS get through the tunnel, and the endpoint is not routed into the tunnel. Only this tunnel's own addresses are contacted.": 154,
 	"Clear history":         227,
 	"Clear history of ‘%s’": 238,
 	"Close":                 41,
-	"Color":                 344,
+	"Color":                 346,
 	"Command Line Options":  4,
 	"Config key is missing an equals separator":                            31,
+	"Configuration Files (*.conf)|*.conf":                                  243,
 	"Configuration Files (*.zip, *.conf)|*.zip;*.conf|All Files (*.*)|*.*": 83,
 	"Configuration ZIP Files (*.zip)|*.zip":                                93,
-	"Connected":                                                            273,
-	"Connected for":                                                        293,
-	"Connection failures":                                                  382,
+	"Connected":                                                            275,
+	"Connected for":                                                        295,
+	"Connection failures":                                                  384,
 	"Connection history is disabled by policy.":                            214,
-	"Connection quality is measured by pinging an address through the tunnel once a second. Leave the field empty to let WireGuard choose a peer address or DNS server of the tunnel.": 264,
+	"Connection quality is measured by pinging an address through the tunnel once a second. Leave the field empty to let WireGuard choose a peer address or DNS server of the tunnel.": 266,
 	"Copy":            228,
-	"Copy public key": 322,
+	"Copy public key": 324,
 	"Could not enumerate existing tunnels: %v":    87,
 	"Could not import selected configuration: %v": 86,
 	"Create new tunnel":                           45,
 	"DNS answers through the tunnel":              147,
-	"DNS servers":                                 313,
-	"Deactivate":                                  295,
-	"Deactivating…":                               272,
+	"DNS servers":                                 315,
+	"Deactivate":                                  297,
+	"Deactivating…":                               274,
 	"Dec":                                         199,
 	"Delete tunnel ‘%s’":                          236,
-	"Details":                                     296,
-	"Disabled by policy. Your administrator does not allow measuring connection quality.": 341,
-	"Dropped packets":                  381,
-	"Edit":                             328,
+	"Details":                                     298,
+	"Disabled by policy. Your administrator does not allow measuring connection quality.": 343,
+	"Dropped packets":                  383,
+	"Edit":                             330,
 	"Edit tunnel":                      46,
-	"Endpoint":                         253,
+	"Endpoint":                         255,
 	"Error":                            0,
 	"Error Exiting WireGuard":          115,
 	"Error: ":                          1,
 	"Error: %v. Please try again.":     123,
-	"Ethernet":                         243,
-	"Events":                           353,
-	"Exit":                             411,
-	"Export":                           308,
+	"Ethernet":                         245,
+	"Events":                           355,
+	"Exit":                             413,
+	"Export":                           310,
 	"Export log to file":               69,
+	"Export tunnel ‘%s’":               244,
 	"Export tunnels to zip":            94,
 	"Failed to activate tunnel":        77,
 	"Failed to deactivate tunnel":      78,
 	"Failed to determine tunnel state": 76,
-	"Favorite":                         343,
-	"Favorites are listed first, here and in the tray menu.": 339,
+	"Favorite":                         345,
+	"Favorites are listed first, here and in the tray menu.": 341,
 	"Feb": 189,
 	"File ‘%s’ already exists.\n\nDo you want to overwrite it?": 62,
-	"Filter tunnels by name": 304,
+	"Filter tunnels by name": 306,
 	"Fri":                    185,
-	"Gray":                   337,
-	"Green":                  330,
+	"Gray":                   339,
+	"Green":                  332,
 	"HISTORY":                216,
-	"Handshake":              349,
-	"INTERFACE":              325,
-	"IPv4":                   256,
-	"IPv6":                   257,
-	"Import":                 307,
-	"Import from file":       298,
-	"Import reads .conf files, or .zip files of them, as your VPN provider or administrator hands them out. Add a tunnel opens an editor: paste a configuration you were given as text, or write a new one with a fresh key pair.": 300,
+	"Handshake":              351,
+	"INTERFACE":              327,
+	"IPv4":                   258,
+	"IPv6":                   259,
+	"Import":                 309,
+	"Import from file":       300,
+	"Import reads .conf files, or .zip files of them, as your VPN provider or administrator hands them out. Add a tunnel opens an editor: paste a configuration you were given as text, or write a new one with a fresh key pair.": 302,
 	"Import tunnel(s) from file":           84,
 	"Imported %d of %d tunnels":            92,
 	"Imported %d tunnels":                  91,
 	"Imported tunnels":                     90,
-	"Import…":                              409,
+	"Import…":                              411,
 	"In %s":                                138,
-	"In %s · Out %s":                       405,
+	"In %s · Out %s":                       407,
 	"Inactive":                             97,
-	"Interface errors":                     379,
+	"Interface errors":                     381,
 	"Invalid IP address: ":                 19,
 	"Invalid MTU":                          23,
-	"Invalid address":                      268,
+	"Invalid address":                      270,
 	"Invalid endpoint host":                21,
 	"Invalid key for [Interface] section":  33,
 	"Invalid key for [Peer] section":       34,
@@ -279,76 +281,76 @@ var messageKeyToIndex = map[string]int{
 	"Invalid persistent keepalive":         25,
 	"Invalid port":                         24,
 	"Jan":                                  188,
-	"Jitter":                               389,
+	"Jitter":                               391,
 	"Jul":                                  194,
 	"Jun":                                  193,
 	"Key must have a value":                32,
-	"Key used elsewhere":                   283,
+	"Key used elsewhere":                   285,
 	"Keys must decode to exactly 32 bytes": 27,
 	"Last %d days":                         205,
 	"Last 30 days":                         218,
 	"Last 7 days":                          217,
-	"Last active":                          385,
-	"Last active for":                      386,
+	"Last active":                          387,
+	"Last active for":                      388,
 	"Latency":                              140,
-	"Latest handshake":                     319,
+	"Latest handshake":                     321,
 	"Line must occur in a section":         30,
-	"Listen port":                          310,
-	"Listen port %d does not work here":    286,
+	"Listen port":                          312,
+	"Listen port %d does not work here":    288,
 	"Log":                                  70,
 	"Log message":                          68,
-	"Loss":                                 390,
-	"Lost probe":                           351,
-	"MTU":                                  311,
-	"Manage tunnels":                       408,
+	"Loss":                                 392,
+	"Lost probe":                           353,
+	"MTU":                                  313,
+	"Manage tunnels":                       410,
 	"Mar":                                  190,
 	"May":                                  192,
-	"Measure connection quality":           345,
+	"Measure connection quality":           347,
 	"Missing port from endpoint":           20,
 	"Mon":                                  181,
-	"Network cut off":                      280,
-	"No connection":                        277,
-	"No data":                              348,
+	"Network cut off":                      282,
+	"No connection":                        279,
+	"No data":                              350,
 	"No reply":                             142,
-	"No reply arrived on the listen port of this tunnel, so it is connected from a random port instead. The router or another device on this network may be using port %d. Remove ListenPort from the configuration or choose another port.": 287,
-	"No tunnel is active":          270,
-	"No tunnel name contains “%s”": 305,
-	"No tunnels yet":               288,
-	"No, only the allowed IPs":     250,
-	"None":                         338,
-	"Not connected":                269,
-	"Not verified":                 347,
+	"No reply arrived on the listen port of this tunnel, so it is connected from a random port instead. The router or another device on this network may be using port %d. Remove ListenPort from the configuration or choose another port.": 289,
+	"No tunnel is active":          272,
+	"No tunnel name contains “%s”": 307,
+	"No tunnels yet":               290,
+	"No, only the allowed IPs":     252,
+	"None":                         340,
+	"Not connected":                271,
+	"Not verified":                 349,
 	"Nothing recorded yet. Usage and sessions show up here once the tunnel has been active.": 215,
 	"Nov":                  198,
 	"Now":                  11,
-	"OK":                   267,
-	"OTHER TUNNELS":        302,
+	"OK":                   269,
+	"OTHER TUNNELS":        304,
 	"Oct":                  197,
 	"Out %s":               139,
-	"PATH":                 324,
-	"PEER":                 326,
-	"Peer does not answer": 278,
-	"Peer does not answer · network unaffected": 275,
-	"Persistent keepalive":                      318,
-	"Pings an address through the tunnel once a second to show latency and loss. Off by default, as it sends traffic of its own.": 340,
+	"PATH":                 326,
+	"PEER":                 328,
+	"Peer does not answer": 280,
+	"Peer does not answer · network unaffected": 277,
+	"Persistent keepalive":                      320,
+	"Pings an address through the tunnel once a second to show latency and loss. Off by default, as it sends traffic of its own.": 342,
 	"Pings through the tunnel are answered": 146,
-	"Pink":                                  336,
+	"Pink":                                  338,
 	"Please ask the system administrator to update.": 120,
-	"Poor connection quality":                        366,
-	"Preshared key":                                  316,
-	"Public key":                                     309,
-	"Quality":                                        294,
-	"Quality cannot be measured":                     364,
+	"Poor connection quality":                        368,
+	"Preshared key":                                  318,
+	"Public key":                                     311,
+	"Quality":                                        296,
+	"Quality cannot be measured":                     366,
 	"Received":                                       207,
-	"Receiving":                                      377,
-	"Reconnect":                                      350,
-	"Reconnects":                                     384,
-	"Red":                                            334,
-	"Remove":                                         329,
-	"Routes have not been applied, so the rest of your network is unaffected. Check the endpoint, the keys and your network.": 276,
+	"Receiving":                                      379,
+	"Reconnect":                                      352,
+	"Reconnects":                                     386,
+	"Red":                                            336,
+	"Remove":                                         331,
+	"Routes have not been applied, so the rest of your network is unaffected. Check the endpoint, the keys and your network.": 278,
 	"SESSIONS":                            222,
-	"SETTINGS":                            342,
-	"SWITCH TO":                           407,
+	"SETTINGS":                            344,
+	"SWITCH TO":                           409,
 	"Sat":                                 186,
 	"Save connection history to file":     241,
 	"Save diagnostics":                    163,
@@ -357,14 +359,14 @@ var messageKeyToIndex = map[string]int{
 	"Save history…":                       226,
 	"Save to file…":                       229,
 	"Save…":                               166,
-	"Scripts":                             314,
+	"Scripts":                             316,
 	"Select &all":                         65,
-	"Sending":                             378,
+	"Sending":                             380,
 	"Sent":                                208,
 	"Sep":                                 196,
 	"Show all %d sessions":                224,
 	"Show fewer":                          225,
-	"Slow connection":                     368,
+	"Slow connection":                     370,
 	"Status: %s":                          132,
 	"Status: Complete!":                   124,
 	"Status: Waiting for administrator":   121,
@@ -373,9 +375,9 @@ var messageKeyToIndex = map[string]int{
 	"Sun":                                 187,
 	"System clock wound backward!":        12,
 	"TROUBLESHOOTING":                     159,
-	"TUNNELS":                             303,
-	"Table":                               315,
-	"Teal":                                335,
+	"TUNNELS":                             305,
+	"Table":                               317,
+	"Teal":                                337,
 	"Test this tunnel":                    160,
 	"Tested %s · %d of %d checks failed":  158,
 	"Tested %s · all checks passed":       157,
@@ -384,34 +386,34 @@ var messageKeyToIndex = map[string]int{
 	"Text Files (*.txt)|*.txt|All Files (*.*)|*.*": 43,
 	"The %s tunnel has been activated.":            108,
 	"The %s tunnel has been deactivated.":          110,
-	"The %s tunnel is active, but its peer does not answer. Check the endpoint, the keys and your network.":                                                                                       396,
-	"The %s tunnel is active, but its peer does not answer. Its routes have not been applied, so the rest of your network is unaffected.":                                                         393,
-	"The %s tunnel takes over all network traffic, but its peer does not answer. Your network is cut off until the peer answers or you deactivate the tunnel.":                                    395,
-	"The address used to measure the connection does not answer pings, so latency and loss are unknown. This says nothing about the tunnel itself. Choose another address on the details screen.": 365,
-	"The connection is unstable: it was lost and re-established recently.":                                                                                                                        285,
-	"The connection of the %s tunnel was lost and re-established. If this keeps happening, check your network, or whether another device uses the same configuration.":                            398,
+	"The %s tunnel is active, but its peer does not answer. Check the endpoint, the keys and your network.":                                                                                       398,
+	"The %s tunnel is active, but its peer does not answer. Its routes have not been applied, so the rest of your network is unaffected.":                                                         395,
+	"The %s tunnel takes over all network traffic, but its peer does not answer. Your network is cut off until the peer answers or you deactivate the tunnel.":                                    397,
+	"The address used to measure the connection does not answer pings, so latency and loss are unknown. This says nothing about the tunnel itself. Choose another address on the details screen.": 367,
+	"The connection is unstable: it was lost and re-established recently.":                                                                                                                        287,
+	"The connection of the %s tunnel was lost and re-established. If this keeps happening, check your network, or whether another device uses the same configuration.":                            400,
 	"The endpoint is only reachable through the tunnel itself. Check your network connection, or remove the endpoint's address from the allowed IPs.":                                             153,
 	"The endpoint is reached outside the tunnel": 148,
 	"The endpoint name resolves":                 144,
 	"The file describes this tunnel for whoever helps you: versions, state, measurements, the last test, recent history and the log lines about it. It never contains private or preshared keys, and public keys are shortened. Addresses and host names are replaced by placeholders unless you include them.": 164,
 	"The peer answers a handshake": 145,
 	"The peer answers but traffic does not get through: check the allowed IPs on both sides, or choose an address that answers pings.": 151,
-	"The peer does not answer. Check the endpoint, the keys and your network.":                                                         279,
-	"There is nothing to connect to yet.": 290,
-	"This tunnel takes over all network traffic, but its peer does not answer. Nothing gets through until it answers or you deactivate the tunnel.": 281,
+	"The peer does not answer. Check the endpoint, the keys and your network.":                                                         281,
+	"There is nothing to connect to yet.": 292,
+	"This tunnel takes over all network traffic, but its peer does not answer. Nothing gets through until it answers or you deactivate the tunnel.": 283,
 	"Thu":                          184,
 	"Time":                         67,
 	"Today":                        200,
 	"Traffic":                      137,
-	"Transfer":                     320,
+	"Transfer":                     322,
 	"Tue":                          182,
 	"Tunnel Error":                 72,
-	"Tunnel MTU":                   249,
+	"Tunnel MTU":                   251,
 	"Tunnel already exists":        58,
 	"Tunnel name is not valid":     29,
 	"Tunnel name ‘%s’ is invalid.": 56,
-	"Tunnels can only be added by an administrator of this computer. Once one is added, it shows up here and you can switch it on and off.": 301,
-	"Turn off":                           406,
+	"Tunnels can only be added by an administrator of this computer. Once one is added, it shows up here and you can switch it on and off.": 303,
+	"Turn off":                           408,
 	"Two commas in a row":                28,
 	"USAGE":                              220,
 	"Unable to change the color":         234,
@@ -429,17 +431,17 @@ var messageKeyToIndex = map[string]int{
 	"Unable to read connection history":                                                           242,
 	"Unable to wait for WireGuard window to appear: %v":                                           96,
 	"Unknown state":       98,
-	"Unstable":            352,
-	"Unstable connection": 402,
+	"Unstable":            354,
+	"Unstable connection": 404,
 	"Update Now":          119,
 	"Uptime":              221,
 	"Usage: %s [\n%s]":    3,
-	"Violet":              332,
-	"Waiting for peer":    274,
+	"Violet":              334,
+	"Waiting for peer":    276,
 	"Warnings and errors": 231,
 	"Wed":                 183,
 	"When a configuration has exactly one peer, and that peer has an allowed IPs containing at least one of 0.0.0.0/0 or ::/0, and the interface does not have table off, then the tunnel service engages a firewall ruleset to block all traffic that is neither to nor from the tunnel interface or is to the wrong DNS server, with special exceptions for DHCP and NDP.": 51,
-	"Wi-Fi":                      244,
+	"Wi-Fi":                      246,
 	"WireGuard Activated":        107,
 	"WireGuard Deactivated":      109,
 	"WireGuard Detection Error":  95,
@@ -450,48 +452,48 @@ var messageKeyToIndex = map[string]int{
 	"WireGuard may only be used by users who are a member of the Builtin %s group.": 8,
 	"WireGuard service stopped":                                   211,
 	"WireGuard system tray icon did not appear after 30 seconds.": 10,
-	"WireGuard: %s":                  401,
+	"WireGuard: %s":                  403,
 	"WireGuard: Deactivated":         106,
-	"WireGuard: Key Used Elsewhere":  399,
-	"WireGuard: Network Cut Off":     394,
-	"WireGuard: No Connection":       392,
-	"WireGuard: Unstable Connection": 397,
+	"WireGuard: Key Used Elsewhere":  401,
+	"WireGuard: Network Cut Off":     396,
+	"WireGuard: No Connection":       394,
+	"WireGuard: Unstable Connection": 399,
 	"Writing file failed":            61,
-	"Yes":                            251,
+	"Yes":                            253,
 	"Yesterday":                      201,
 	"You must use the native version of WireGuard on this computer.":                          6,
 	"Your network or its DNS is not working, or the name in the configuration is misspelled.": 149,
 	"[EnumerationSeparator]":             130,
 	"[UnitSeparator]":                    131,
 	"[none specified]":                   36,
-	"automatic":                          266,
+	"automatic":                          268,
 	"computer went to sleep":             212,
 	"deactivated":                        210,
 	"disabled, per policy":               103,
 	"enabled":                            105,
 	"in progress":                        209,
-	"last active %s for %s":              374,
-	"mobile network":                     245,
-	"no answer in the last minute":       388,
+	"last active %s for %s":              376,
+	"mobile network":                     247,
+	"no answer in the last minute":       390,
 	"no configuration files were found":  85,
-	"no reply from the measured address": 387,
-	"no route outside the tunnel":        260,
-	"none yet":                           255,
-	"not connected":                      376,
+	"no reply from the measured address": 389,
+	"no route outside the tunnel":        262,
+	"none yet":                           257,
+	"not connected":                      378,
 	"now":                                176,
 	"off":                                104,
-	"other network":                      246,
+	"other network":                      248,
 	"post-down":                          102,
 	"post-up":                            100,
 	"pre-down":                           101,
 	"pre-up":                             99,
-	"the name now resolves to other addresses; reactivate the tunnel to follow it": 248,
-	"the peer answered from another address than the configured one":               247,
+	"the name now resolves to other addresses; reactivate the tunnel to follow it": 250,
+	"the peer answered from another address than the configured one":               249,
 	"unknown":    213,
 	"♥ &Donate!": 42,
 }
 
-var afIndex = []uint32{ // 413 elements
+var afIndex = []uint32{ // 415 elements
 	// Entry 0 - 1F
 	0x00000000, 0x00000005, 0x00000010, 0x0000004d,
 	0x00000065, 0x00000077, 0x000000b0, 0x000000f9,
@@ -608,8 +610,8 @@ var afIndex = []uint32{ // 413 elements
 	0x00001108, 0x00001108, 0x00001108, 0x00001108,
 	0x00001108, 0x00001108, 0x00001108, 0x00001108,
 	0x00001108, 0x00001108, 0x00001108, 0x00001108,
-	0x00001108,
-} // Size: 1676 bytes
+	0x00001108, 0x00001108, 0x00001108,
+} // Size: 1684 bytes
 
 const afData string = "" + // Size: 4360 bytes
 	"\x02Fout\x04\x00\x01 \x06\x02Fout:\x02(geen argument): verhoog regte en " +
@@ -682,7 +684,7 @@ const afData string = "" + // Size: 4360 bytes
 	"erk.\x02Status: Wag vir administrateur\x02Status: Wag vir bywerkingsdien" +
 	"s\x02Fout: %[1]v. Probeer asseblief weer.\x02Status: Voltooid!"
 
-var arIndex = []uint32{ // 413 elements
+var arIndex = []uint32{ // 415 elements
 	// Entry 0 - 1F
 	0x00000000, 0x00000007, 0x00000014, 0x0000006e,
 	0x00000091, 0x000000b4, 0x00000116, 0x00000182,
@@ -799,8 +801,8 @@ var arIndex = []uint32{ // 413 elements
 	0x00001b36, 0x00001b36, 0x00001b36, 0x00001b36,
 	0x00001b36, 0x00001b36, 0x00001b36, 0x00001b36,
 	0x00001b36, 0x00001b36, 0x00001b36, 0x00001b36,
-	0x00001b36,
-} // Size: 1676 bytes
+	0x00001b36, 0x00001b36, 0x00001b36,
+} // Size: 1684 bytes
 
 const arData string = "" + // Size: 6966 bytes
 	"\x02خطأ\x04\x00\x01 \x08\x02خطأ:\x02(بدون معطيات): تصعيد الصلاحيات وتثبي" +
@@ -877,7 +879,7 @@ const arData string = "" + // Size: 6966 bytes
 	"[1]f\u00a0كيبيبايت\x02%.2[1]f\u00a0ميبيبايت\x02%.2[1]f\u00a0جيبيبايت\x02" +
 	"%.2[1]f\u00a0تيبيبايت\x02، \x02، \x02الحالة: %[1]s"
 
-var caIndex = []uint32{ // 413 elements
+var caIndex = []uint32{ // 415 elements
 	// Entry 0 - 1F
 	0x00000000, 0x00000006, 0x00000006, 0x00000045,
 	0x00000059, 0x00000074, 0x000000b3, 0x000000f9,
@@ -994,8 +996,8 @@ var caIndex = []uint32{ // 413 elements
 	0x000012ff, 0x000012ff, 0x000012ff, 0x000012ff,
 	0x000012ff, 0x000012ff, 0x000012ff, 0x000012ff,
 	0x000012ff, 0x000012ff, 0x000012ff, 0x000012ff,
-	0x000012ff,
-} // Size: 1676 bytes
+	0x000012ff, 0x000012ff, 0x000012ff,
+} // Size: 1684 bytes
 
 const caData string = "" + // Size: 4863 bytes
 	"\x02Error\x02(sense argument): eleva i instal·la el servei d'administrad" +
@@ -1075,7 +1077,7 @@ const caData string = "" + // Size: 4863 bytes
 	"\u00a0MiB\x02%.2[1]f\u00a0GiB\x02%.2[1]f\u00a0TiB\x02Estat: %[1]s\x02%[1" +
 	"]s: %[2]q"
 
-var csIndex = []uint32{ // 413 elements
+var csIndex = []uint32{ // 415 elements
 	// Entry 0 - 1F
 	0x00000000, 0x00000006, 0x00000012, 0x0000005b,
 	0x00000075, 0x00000096, 0x000000c9, 0x00000112,
@@ -1192,8 +1194,8 @@ var csIndex = []uint32{ // 413 elements
 	0x000012f8, 0x000012f8, 0x000012f8, 0x000012f8,
 	0x000012f8, 0x000012f8, 0x000012f8, 0x000012f8,
 	0x000012f8, 0x000012f8, 0x000012f8, 0x000012f8,
-	0x000012f8,
-} // Size: 1676 bytes
+	0x000012f8, 0x000012f8, 0x000012f8,
+} // Size: 1684 bytes
 
 const csData string = "" + // Size: 4856 bytes
 	"\x02Chyba\x04\x00\x01 \x07\x02Chyba:\x02(žádný argument): Zvýšit oprávně" +
@@ -1272,7 +1274,7 @@ const csData string = "" + // Size: 4856 bytes
 	"1]d\u00a0B\x02%.2[1]f\u00a0KiB\x02%.2[1]f\u00a0MiB\x02%.2[1]f\u00a0GiB" +
 	"\x02%.2[1]f\u00a0TiB\x02Stav: %[1]s\x02%[1]s: %[2]q"
 
-var daIndex = []uint32{ // 413 elements
+var daIndex = []uint32{ // 415 elements
 	// Entry 0 - 1F
 	0x00000000, 0x00000005, 0x00000010, 0x00000048,
 	0x0000005d, 0x00000078, 0x000000b0, 0x000000f2,
@@ -1389,8 +1391,8 @@ var daIndex = []uint32{ // 413 elements
 	0x0000112d, 0x0000112d, 0x0000112d, 0x0000112d,
 	0x0000112d, 0x0000112d, 0x0000112d, 0x0000112d,
 	0x0000112d, 0x0000112d, 0x0000112d, 0x0000112d,
-	0x0000112d,
-} // Size: 1676 bytes
+	0x0000112d, 0x0000112d, 0x0000112d,
+} // Size: 1684 bytes
 
 const daData string = "" + // Size: 4397 bytes
 	"\x02Fejl\x04\x00\x01 \x06\x02Fejl:\x02(intet argument): ophøj og install" +
@@ -1464,7 +1466,7 @@ const daData string = "" + // Size: 4397 bytes
 	"d\u00a0B\x02%.2[1]f\u00a0KiB\x02%.2[1]f\u00a0MiB\x02%.2[1]f\u00a0GiB\x02" +
 	"%.2[1]f\u00a0TiB\x02Status: %[1]s\x02%[1]s: %[2]q"
 
-var deIndex = []uint32{ // 413 elements
+var deIndex = []uint32{ // 415 elements
 	// Entry 0 - 1F
 	0x00000000, 0x00000007, 0x00000014, 0x00000066,
 	0x00000081, 0x00000098, 0x000000ee, 0x0000013a,
@@ -1581,8 +1583,8 @@ var deIndex = []uint32{ // 413 elements
 	0x000013fe, 0x000013fe, 0x000013fe, 0x000013fe,
 	0x000013fe, 0x000013fe, 0x000013fe, 0x000013fe,
 	0x000013fe, 0x000013fe, 0x000013fe, 0x000013fe,
-	0x000013fe,
-} // Size: 1676 bytes
+	0x000013fe, 0x000013fe, 0x000013fe,
+} // Size: 1684 bytes
 
 const deData string = "" + // Size: 5118 bytes
 	"\x02Fehler\x04\x00\x01 \x08\x02Fehler:\x02(kein Argument): Als Administr" +
@@ -1666,7 +1668,7 @@ const deData string = "" + // Size: 5118 bytes
 	"f\u00a0KiB\x02%.2[1]f\u00a0MiB\x02%.2[1]f\u00a0GiB\x02%.2[1]f\u00a0TiB" +
 	"\x02Status: %[1]s\x02%[1]s: %[2]q"
 
-var elIndex = []uint32{ // 413 elements
+var elIndex = []uint32{ // 415 elements
 	// Entry 0 - 1F
 	0x00000000, 0x0000000d, 0x00000020, 0x000000a9,
 	0x000000c4, 0x000000f3, 0x00000176, 0x00000206,
@@ -1783,8 +1785,8 @@ var elIndex = []uint32{ // 413 elements
 	0x00002235, 0x00002235, 0x00002235, 0x00002235,
 	0x00002235, 0x00002235, 0x00002235, 0x00002235,
 	0x00002235, 0x00002235, 0x00002235, 0x00002235,
-	0x00002235,
-} // Size: 1676 bytes
+	0x00002235, 0x00002235, 0x00002235,
+} // Size: 1684 bytes
 
 const elData string = "" + // Size: 8757 bytes
 	"\x02Σφάλμα\x04\x00\x01 \x0e\x02Σφάλμα:\x02(χωρίς όρισμα): ανύψωση δικαιω" +
@@ -1870,7 +1872,7 @@ const elData string = "" + // Size: 8757 bytes
 	"1]f\u00a0MiB\x02%.2[1]f\u00a0GiB\x02%.2[1]f\u00a0TiB\x02Κατάσταση: %[1]s" +
 	"\x02%[1]s: %[2]q"
 
-var enIndex = []uint32{ // 413 elements
+var enIndex = []uint32{ // 415 elements
 	// Entry 0 - 1F
 	0x00000000, 0x00000006, 0x00000012, 0x00000045,
 	0x0000005b, 0x00000070, 0x000000b6, 0x000000f5,
@@ -1940,57 +1942,57 @@ var enIndex = []uint32{ // 413 elements
 	0x000019ef, 0x00001a10, 0x00001a2e, 0x00001a49,
 	0x00001a83, 0x00001a9d, 0x00001af0, 0x00001b0d,
 	0x00001b25, 0x00001b51, 0x00001b71, 0x00001b93,
-	0x00001b9c, 0x00001ba2, 0x00001bb1, 0x00001bbf,
-	0x00001bfe, 0x00001c4b, 0x00001c56, 0x00001c6f,
-	0x00001c73, 0x00001c7f, 0x00001c88, 0x00001c97,
+	0x00001bb7, 0x00001bd1, 0x00001bda, 0x00001be0,
+	0x00001bef, 0x00001bfd, 0x00001c3c, 0x00001c89,
+	0x00001c94, 0x00001cad, 0x00001cb1, 0x00001cbd,
 	// Entry 100 - 11F
-	0x00001ca0, 0x00001ca5, 0x00001caa, 0x00001cb8,
-	0x00001cc3, 0x00001cdf, 0x00001ceb, 0x00001d51,
-	0x00001d64, 0x00001e15, 0x00001e1f, 0x00001e29,
-	0x00001e2c, 0x00001e3c, 0x00001e4a, 0x00001e5e,
-	0x00001e6c, 0x00001e7c, 0x00001e86, 0x00001e97,
-	0x00001ec2, 0x00001f3a, 0x00001f48, 0x00001f5d,
-	0x00001fa6, 0x00001fb6, 0x00002044, 0x0000206a,
-	0x0000207d, 0x000020f8, 0x0000213d, 0x00002162,
+	0x00001cc6, 0x00001cd5, 0x00001cde, 0x00001ce3,
+	0x00001ce8, 0x00001cf6, 0x00001d01, 0x00001d1d,
+	0x00001d29, 0x00001d8f, 0x00001da2, 0x00001e53,
+	0x00001e5d, 0x00001e67, 0x00001e6a, 0x00001e7a,
+	0x00001e88, 0x00001e9c, 0x00001eaa, 0x00001eba,
+	0x00001ec4, 0x00001ed5, 0x00001f00, 0x00001f78,
+	0x00001f86, 0x00001f9b, 0x00001fe4, 0x00001ff4,
+	0x00002082, 0x000020a8, 0x000020bb, 0x00002136,
 	// Entry 120 - 13F
-	0x0000224c, 0x0000225b, 0x00002290, 0x000022b4,
-	0x000022d4, 0x000022dc, 0x000022ea, 0x000022f2,
-	0x000022fd, 0x00002305, 0x00002314, 0x00002325,
-	0x00002332, 0x0000240f, 0x00002495, 0x000024a3,
-	0x000024ab, 0x000024c2, 0x000024e6, 0x000024f1,
-	0x000024f8, 0x000024ff, 0x0000250a, 0x00002516,
-	0x0000251a, 0x00002524, 0x00002530, 0x00002538,
-	0x0000253e, 0x0000254c, 0x00002558, 0x0000256d,
+	0x0000217b, 0x000021a0, 0x0000228a, 0x00002299,
+	0x000022ce, 0x000022f2, 0x00002312, 0x0000231a,
+	0x00002328, 0x00002330, 0x0000233b, 0x00002343,
+	0x00002352, 0x00002363, 0x00002370, 0x0000244d,
+	0x000024d3, 0x000024e1, 0x000024e9, 0x00002500,
+	0x00002524, 0x0000252f, 0x00002536, 0x0000253d,
+	0x00002548, 0x00002554, 0x00002558, 0x00002562,
+	0x0000256e, 0x00002576, 0x0000257c, 0x0000258a,
 	// Entry 140 - 15F
-	0x0000257e, 0x00002587, 0x000025a2, 0x000025b2,
-	0x000025bd, 0x000025c2, 0x000025cc, 0x000025d1,
-	0x000025da, 0x000025df, 0x000025e6, 0x000025ec,
-	0x000025f1, 0x000025f8, 0x000025fe, 0x00002602,
-	0x00002607, 0x0000260c, 0x00002611, 0x00002616,
-	0x0000264d, 0x000026c9, 0x0000271d, 0x00002726,
-	0x0000272f, 0x00002735, 0x00002750, 0x0000275a,
-	0x00002767, 0x0000276f, 0x00002779, 0x00002783,
+	0x00002596, 0x000025ab, 0x000025bc, 0x000025c5,
+	0x000025e0, 0x000025f0, 0x000025fb, 0x00002600,
+	0x0000260a, 0x0000260f, 0x00002618, 0x0000261d,
+	0x00002624, 0x0000262a, 0x0000262f, 0x00002636,
+	0x0000263c, 0x00002640, 0x00002645, 0x0000264a,
+	0x0000264f, 0x00002654, 0x0000268b, 0x00002707,
+	0x0000275b, 0x00002764, 0x0000276d, 0x00002773,
+	0x0000278e, 0x00002798, 0x000027a5, 0x000027ad,
 	// Entry 160 - 17F
-	0x0000278e, 0x00002797, 0x0000279e, 0x000027af,
-	0x000027c0, 0x000027db, 0x00002800, 0x00002805,
-	0x00002810, 0x0000281b, 0x00002825, 0x00002830,
-	0x00002844, 0x0000285f, 0x0000291b, 0x00002933,
-	0x0000299b, 0x000029ab, 0x00002a16, 0x00002a1e,
-	0x00002a28, 0x00002a3a, 0x00002a4a, 0x00002a66,
-	0x00002a71, 0x00002a7f, 0x00002a89, 0x00002a91,
-	0x00002aa2, 0x00002ab6, 0x00002ac6, 0x00002ada,
+	0x000027b7, 0x000027c1, 0x000027cc, 0x000027d5,
+	0x000027dc, 0x000027ed, 0x000027fe, 0x00002819,
+	0x0000283e, 0x00002843, 0x0000284e, 0x00002859,
+	0x00002863, 0x0000286e, 0x00002882, 0x0000289d,
+	0x00002959, 0x00002971, 0x000029d9, 0x000029e9,
+	0x00002a54, 0x00002a5c, 0x00002a66, 0x00002a78,
+	0x00002a88, 0x00002aa4, 0x00002aaf, 0x00002abd,
+	0x00002ac7, 0x00002acf, 0x00002ae0, 0x00002af4,
 	// Entry 180 - 19F
-	0x00002ae0, 0x00002aeb, 0x00002af7, 0x00002b07,
-	0x00002b2a, 0x00002b47, 0x00002b4e, 0x00002b53,
-	0x00002b7d, 0x00002b96, 0x00002c1d, 0x00002c38,
-	0x00002cd4, 0x00002d3d, 0x00002d5c, 0x00002e00,
-	0x00002e1e, 0x00002ea3, 0x00002eb4, 0x00002ec8,
-	0x00002ed7, 0x00002ef4, 0x00002f0a, 0x00002f13,
-	0x00002f1d, 0x00002f2c, 0x00002f36, 0x00002f3c,
-	0x00002f41,
-} // Size: 1676 bytes
+	0x00002b04, 0x00002b18, 0x00002b1e, 0x00002b29,
+	0x00002b35, 0x00002b45, 0x00002b68, 0x00002b85,
+	0x00002b8c, 0x00002b91, 0x00002bbb, 0x00002bd4,
+	0x00002c5b, 0x00002c76, 0x00002d12, 0x00002d7b,
+	0x00002d9a, 0x00002e3e, 0x00002e5c, 0x00002ee1,
+	0x00002ef2, 0x00002f06, 0x00002f15, 0x00002f32,
+	0x00002f48, 0x00002f51, 0x00002f5b, 0x00002f6a,
+	0x00002f74, 0x00002f7a, 0x00002f7f,
+} // Size: 1684 bytes
 
-const enData string = "" + // Size: 12097 bytes
+const enData string = "" + // Size: 12159 bytes
 	"\x02Error\x04\x00\x01 \x07\x02Error:\x02(no argument): elevate and insta" +
 	"ll manager service\x02Usage: %[1]s [\x0a%[2]s]\x02Command Line Options" +
 	"\x02Unable to determine whether the process is running under WOW64: %[1]" +
@@ -2103,85 +2105,86 @@ const enData string = "" + // Size: 12097 bytes
 	"the connection history of tunnel ‘%[1]s’?\x02Clear history of ‘%[1]s’" +
 	"\x02Unable to clear history\x02CSV Files (*.csv)|*.csv|All Files (*.*)|*" +
 	".*\x02Save connection history to file\x02Unable to read connection histo" +
-	"ry\x02Ethernet\x02Wi-Fi\x02mobile network\x02other network\x02the peer a" +
-	"nswered from another address than the configured one\x02the name now res" +
-	"olves to other addresses; reactivate the tunnel to follow it\x02Tunnel M" +
-	"TU\x02No, only the allowed IPs\x02Yes\x02All traffic\x02Endpoint\x02Addr" +
-	"ess in use\x02none yet\x02IPv4\x02IPv6\x02%[1]s (%[2]s)\x02Carried by" +
-	"\x02no route outside the tunnel\x02Carrier MTU\x02%[1]s · the tunnel MTU" +
-	" plus %[2]d bytes of WireGuard does not fit; use a tunnel MTU of %[3]s o" +
-	"r less\x02Address to measure\x02Connection quality is measured by pingin" +
-	"g an address through the tunnel once a second. Leave the field empty to " +
-	"let WireGuard choose a peer address or DNS server of the tunnel.\x02&Add" +
-	"ress:\x02automatic\x02OK\x02Invalid address\x02Not connected\x02No tunne" +
-	"l is active\x02Activating…\x02Deactivating…\x02Connected\x02Waiting for " +
-	"peer\x02Peer does not answer · network unaffected\x02Routes have not bee" +
-	"n applied, so the rest of your network is unaffected. Check the endpoint" +
-	", the keys and your network.\x02No connection\x02Peer does not answer" +
-	"\x02The peer does not answer. Check the endpoint, the keys and your netw" +
-	"ork.\x02Network cut off\x02This tunnel takes over all network traffic, b" +
-	"ut its peer does not answer. Nothing gets through until it answers or yo" +
-	"u deactivate the tunnel.\x02Active · connection not verified yet\x02Key " +
-	"used elsewhere\x02Another device appears to be using this tunnel's key, " +
-	"which breaks connections on both. Give each device its own key pair.\x02" +
-	"The connection is unstable: it was lost and re-established recently.\x02" +
-	"Listen port %[1]d does not work here\x02No reply arrived on the listen p" +
-	"ort of this tunnel, so it is connected from a random port instead. The r" +
-	"outer or another device on this network may be using port %[1]d. Remove " +
-	"ListenPort from the configuration or choose another port.\x02No tunnels " +
-	"yet\x02Add the configuration you were given to get started.\x02There is " +
-	"nothing to connect to yet.\x02%[1]s · latest handshake %[2]s\x02Address" +
-	"\x02Connected for\x02Quality\x02Deactivate\x02Details\x02Activate %[1]s" +
-	"\x02Import from file\x02Add a tunnel\x02Import reads .conf files, or .zi" +
-	"p files of them, as your VPN provider or administrator hands them out. A" +
-	"dd a tunnel opens an editor: paste a configuration you were given as tex" +
-	"t, or write a new one with a fresh key pair.\x02Tunnels can only be adde" +
-	"d by an administrator of this computer. Once one is added, it shows up h" +
-	"ere and you can switch it on and off.\x02OTHER TUNNELS\x02TUNNELS\x02Fil" +
-	"ter tunnels by name\x02No tunnel name contains “%[1]s”\x02Add tunnel\x02" +
-	"Import\x02Export\x02Public key\x02Listen port\x02MTU\x02Addresses\x02DNS" +
-	" servers\x02Scripts\x02Table\x02Preshared key\x02Allowed IPs\x02Persiste" +
-	"nt keepalive\x02Latest handshake\x02Transfer\x02%[1]s received, %[2]s se" +
-	"nt\x02Copy public key\x02CONNECTION\x02PATH\x02INTERFACE\x02PEER\x02Acti" +
-	"vate\x02Edit\x02Remove\x02Green\x02Blue\x02Violet\x02Amber\x02Red\x02Tea" +
-	"l\x02Pink\x02Gray\x02None\x02Favorites are listed first, here and in the" +
-	" tray menu.\x02Pings an address through the tunnel once a second to show" +
-	" latency and loss. Off by default, as it sends traffic of its own.\x02Di" +
-	"sabled by policy. Your administrator does not allow measuring connection" +
-	" quality.\x02SETTINGS\x02Favorite\x02Color\x02Measure connection quality" +
-	"\x02Change…\x02Not verified\x02No data\x02Handshake\x02Reconnect\x02Lost" +
-	" probe\x02Unstable\x02Events\x02%[1]d reconnects\x02%[1]d handshakes\x02" +
-	"%[1]d of %[2]d probes lost\x02%[1]d reconnects · %[2]d handshakes\x020 m" +
-	"s\x02%.1[1]f ms\x02%.0[1]f ms\x02%.0[1]f %\x02%[1]s loss\x02%[1]s · %[2]" +
-	"s loss\x02Quality cannot be measured\x02The address used to measure the " +
-	"connection does not answer pings, so latency and loss are unknown. This " +
-	"says nothing about the tunnel itself. Choose another address on the deta" +
-	"ils screen.\x02Poor connection quality\x02%[1]s of the test pings in the" +
-	" last minute got no answer. Pages may load slowly and calls may break up" +
-	".\x02Slow connection\x02Answers through the tunnel took %[1]s on average" +
-	" in the last minute, which makes the connection feel slow.\x02%[1]d s" +
-	"\x02%[1]d min\x02%[1]d h %[2]d min\x02%[1]d d %[2]d h\x02last active %[1" +
-	"]s for %[2]s\x02Active for\x02not connected\x02Receiving\x02Sending\x02I" +
-	"nterface errors\x02%[1]d in, %[2]d out\x02Dropped packets\x02Connection " +
-	"failures\x02%[1]d\x02Reconnects\x02Last active\x02Last active for\x02no " +
-	"reply from the measured address\x02no answer in the last minute\x02Jitte" +
-	"r\x02Loss\x02%[1]s (%[2]d of %[3]d in the last minute)\x02WireGuard: No " +
-	"Connection\x02The %[1]s tunnel is active, but its peer does not answer. " +
-	"Its routes have not been applied, so the rest of your network is unaffec" +
-	"ted.\x02WireGuard: Network Cut Off\x02The %[1]s tunnel takes over all ne" +
-	"twork traffic, but its peer does not answer. Your network is cut off unt" +
-	"il the peer answers or you deactivate the tunnel.\x02The %[1]s tunnel is" +
-	" active, but its peer does not answer. Check the endpoint, the keys and " +
-	"your network.\x02WireGuard: Unstable Connection\x02The connection of the" +
-	" %[1]s tunnel was lost and re-established. If this keeps happening, chec" +
-	"k your network, or whether another device uses the same configuration." +
-	"\x02WireGuard: Key Used Elsewhere\x02Another device appears to be using " +
-	"the key of the %[1]s tunnel, which breaks connections on both. Give each" +
-	" device its own key pair.\x02WireGuard: %[1]s\x02Unstable connection\x02" +
-	"%[1]s (+%[2]d)\x02%[1]s · connected for %[2]s\x02In %[1]s · Out %[2]s" +
-	"\x02Turn off\x02SWITCH TO\x02Manage tunnels\x02Import…\x02About\x02Exit"
+	"ry\x02Configuration Files (*.conf)|*.conf\x02Export tunnel ‘%[1]s’\x02Et" +
+	"hernet\x02Wi-Fi\x02mobile network\x02other network\x02the peer answered " +
+	"from another address than the configured one\x02the name now resolves to" +
+	" other addresses; reactivate the tunnel to follow it\x02Tunnel MTU\x02No" +
+	", only the allowed IPs\x02Yes\x02All traffic\x02Endpoint\x02Address in u" +
+	"se\x02none yet\x02IPv4\x02IPv6\x02%[1]s (%[2]s)\x02Carried by\x02no rout" +
+	"e outside the tunnel\x02Carrier MTU\x02%[1]s · the tunnel MTU plus %[2]d" +
+	" bytes of WireGuard does not fit; use a tunnel MTU of %[3]s or less\x02A" +
+	"ddress to measure\x02Connection quality is measured by pinging an addres" +
+	"s through the tunnel once a second. Leave the field empty to let WireGua" +
+	"rd choose a peer address or DNS server of the tunnel.\x02&Address:\x02au" +
+	"tomatic\x02OK\x02Invalid address\x02Not connected\x02No tunnel is active" +
+	"\x02Activating…\x02Deactivating…\x02Connected\x02Waiting for peer\x02Pee" +
+	"r does not answer · network unaffected\x02Routes have not been applied, " +
+	"so the rest of your network is unaffected. Check the endpoint, the keys " +
+	"and your network.\x02No connection\x02Peer does not answer\x02The peer d" +
+	"oes not answer. Check the endpoint, the keys and your network.\x02Networ" +
+	"k cut off\x02This tunnel takes over all network traffic, but its peer do" +
+	"es not answer. Nothing gets through until it answers or you deactivate t" +
+	"he tunnel.\x02Active · connection not verified yet\x02Key used elsewhere" +
+	"\x02Another device appears to be using this tunnel's key, which breaks c" +
+	"onnections on both. Give each device its own key pair.\x02The connection" +
+	" is unstable: it was lost and re-established recently.\x02Listen port %[" +
+	"1]d does not work here\x02No reply arrived on the listen port of this tu" +
+	"nnel, so it is connected from a random port instead. The router or anoth" +
+	"er device on this network may be using port %[1]d. Remove ListenPort fro" +
+	"m the configuration or choose another port.\x02No tunnels yet\x02Add the" +
+	" configuration you were given to get started.\x02There is nothing to con" +
+	"nect to yet.\x02%[1]s · latest handshake %[2]s\x02Address\x02Connected f" +
+	"or\x02Quality\x02Deactivate\x02Details\x02Activate %[1]s\x02Import from " +
+	"file\x02Add a tunnel\x02Import reads .conf files, or .zip files of them," +
+	" as your VPN provider or administrator hands them out. Add a tunnel open" +
+	"s an editor: paste a configuration you were given as text, or write a ne" +
+	"w one with a fresh key pair.\x02Tunnels can only be added by an administ" +
+	"rator of this computer. Once one is added, it shows up here and you can " +
+	"switch it on and off.\x02OTHER TUNNELS\x02TUNNELS\x02Filter tunnels by n" +
+	"ame\x02No tunnel name contains “%[1]s”\x02Add tunnel\x02Import\x02Export" +
+	"\x02Public key\x02Listen port\x02MTU\x02Addresses\x02DNS servers\x02Scri" +
+	"pts\x02Table\x02Preshared key\x02Allowed IPs\x02Persistent keepalive\x02" +
+	"Latest handshake\x02Transfer\x02%[1]s received, %[2]s sent\x02Copy publi" +
+	"c key\x02CONNECTION\x02PATH\x02INTERFACE\x02PEER\x02Activate\x02Edit\x02" +
+	"Remove\x02Green\x02Blue\x02Violet\x02Amber\x02Red\x02Teal\x02Pink\x02Gra" +
+	"y\x02None\x02Favorites are listed first, here and in the tray menu.\x02P" +
+	"ings an address through the tunnel once a second to show latency and los" +
+	"s. Off by default, as it sends traffic of its own.\x02Disabled by policy" +
+	". Your administrator does not allow measuring connection quality.\x02SET" +
+	"TINGS\x02Favorite\x02Color\x02Measure connection quality\x02Change…\x02N" +
+	"ot verified\x02No data\x02Handshake\x02Reconnect\x02Lost probe\x02Unstab" +
+	"le\x02Events\x02%[1]d reconnects\x02%[1]d handshakes\x02%[1]d of %[2]d p" +
+	"robes lost\x02%[1]d reconnects · %[2]d handshakes\x020 ms\x02%.1[1]f ms" +
+	"\x02%.0[1]f ms\x02%.0[1]f %\x02%[1]s loss\x02%[1]s · %[2]s loss\x02Quali" +
+	"ty cannot be measured\x02The address used to measure the connection does" +
+	" not answer pings, so latency and loss are unknown. This says nothing ab" +
+	"out the tunnel itself. Choose another address on the details screen.\x02" +
+	"Poor connection quality\x02%[1]s of the test pings in the last minute go" +
+	"t no answer. Pages may load slowly and calls may break up.\x02Slow conne" +
+	"ction\x02Answers through the tunnel took %[1]s on average in the last mi" +
+	"nute, which makes the connection feel slow.\x02%[1]d s\x02%[1]d min\x02%" +
+	"[1]d h %[2]d min\x02%[1]d d %[2]d h\x02last active %[1]s for %[2]s\x02Ac" +
+	"tive for\x02not connected\x02Receiving\x02Sending\x02Interface errors" +
+	"\x02%[1]d in, %[2]d out\x02Dropped packets\x02Connection failures\x02%[1" +
+	"]d\x02Reconnects\x02Last active\x02Last active for\x02no reply from the " +
+	"measured address\x02no answer in the last minute\x02Jitter\x02Loss\x02%[" +
+	"1]s (%[2]d of %[3]d in the last minute)\x02WireGuard: No Connection\x02T" +
+	"he %[1]s tunnel is active, but its peer does not answer. Its routes have" +
+	" not been applied, so the rest of your network is unaffected.\x02WireGua" +
+	"rd: Network Cut Off\x02The %[1]s tunnel takes over all network traffic, " +
+	"but its peer does not answer. Your network is cut off until the peer ans" +
+	"wers or you deactivate the tunnel.\x02The %[1]s tunnel is active, but it" +
+	"s peer does not answer. Check the endpoint, the keys and your network." +
+	"\x02WireGuard: Unstable Connection\x02The connection of the %[1]s tunnel" +
+	" was lost and re-established. If this keeps happening, check your networ" +
+	"k, or whether another device uses the same configuration.\x02WireGuard: " +
+	"Key Used Elsewhere\x02Another device appears to be using the key of the " +
+	"%[1]s tunnel, which breaks connections on both. Give each device its own" +
+	" key pair.\x02WireGuard: %[1]s\x02Unstable connection\x02%[1]s (+%[2]d)" +
+	"\x02%[1]s · connected for %[2]s\x02In %[1]s · Out %[2]s\x02Turn off\x02S" +
+	"WITCH TO\x02Manage tunnels\x02Import…\x02About\x02Exit"
 
-var es_ESIndex = []uint32{ // 413 elements
+var es_ESIndex = []uint32{ // 415 elements
 	// Entry 0 - 1F
 	0x00000000, 0x00000006, 0x00000006, 0x00000044,
 	0x00000058, 0x00000077, 0x000000c5, 0x000000ff,
@@ -2298,8 +2301,8 @@ var es_ESIndex = []uint32{ // 413 elements
 	0x000013a2, 0x000013a2, 0x000013a2, 0x000013a2,
 	0x000013a2, 0x000013a2, 0x000013a2, 0x000013a2,
 	0x000013a2, 0x000013a2, 0x000013a2, 0x000013a2,
-	0x000013a2,
-} // Size: 1676 bytes
+	0x000013a2, 0x000013a2, 0x000013a2,
+} // Size: 1684 bytes
 
 const es_ESData string = "" + // Size: 5026 bytes
 	"\x02Error\x02(sin argumento): eleve e instale el servicio de administrad" +
@@ -2381,7 +2384,7 @@ const es_ESData string = "" + // Size: 5026 bytes
 	"to!\x02%[1]d B\x02%.2[1]f KiB\x02%.2[1]f MiB\x02%.2[1]f GiB\x02%.2[1]f T" +
 	"iB\x02Estado: %[1]s\x02%[1]s: %[2]q"
 
-var etIndex = []uint32{ // 413 elements
+var etIndex = []uint32{ // 415 elements
 	// Entry 0 - 1F
 	0x00000000, 0x00000005, 0x00000010, 0x00000047,
 	0x00000060, 0x00000071, 0x000000b9, 0x00000101,
@@ -2498,8 +2501,8 @@ var etIndex = []uint32{ // 413 elements
 	0x00001188, 0x00001188, 0x00001188, 0x00001188,
 	0x00001188, 0x00001188, 0x00001188, 0x00001188,
 	0x00001188, 0x00001188, 0x00001188, 0x00001188,
-	0x00001188,
-} // Size: 1676 bytes
+	0x00001188, 0x00001188, 0x00001188,
+} // Size: 1684 bytes
 
 const etData string = "" + // Size: 4488 bytes
 	"\x02Viga\x04\x00\x01 \x06\x02Viga:\x02(tühi muutuja): paigalda haldustee" +
@@ -2574,7 +2577,7 @@ const etData string = "" + // Size: 4488 bytes
 	"\x02%.2[1]f\u00a0MiB\x02%.2[1]f\u00a0GiB\x02%.2[1]f\u00a0TiB\x02Staatus:" +
 	" %[1]s\x02%[1]s: %[2]q"
 
-var faIndex = []uint32{ // 413 elements
+var faIndex = []uint32{ // 415 elements
 	// Entry 0 - 1F
 	0x00000000, 0x00000007, 0x00000014, 0x00000068,
 	0x00000087, 0x000000ab, 0x0000010b, 0x0000016e,
@@ -2691,8 +2694,8 @@ var faIndex = []uint32{ // 413 elements
 	0x00001ac1, 0x00001ac1, 0x00001ac1, 0x00001ac1,
 	0x00001ac1, 0x00001ac1, 0x00001ac1, 0x00001ac1,
 	0x00001ac1, 0x00001ac1, 0x00001ac1, 0x00001ac1,
-	0x00001ac1,
-} // Size: 1676 bytes
+	0x00001ac1, 0x00001ac1, 0x00001ac1,
+} // Size: 1684 bytes
 
 const faData string = "" + // Size: 6849 bytes
 	"\x02خطا\x04\x00\x01 \x08\x02خطا:\x02(بدون ورودیی): سرویس مدیریت را ارتقا" +
@@ -2767,7 +2770,7 @@ const faData string = "" + // Size: 6849 bytes
 	"\u00a0MiB\x02%.2[1]f\u00a0GiB\x02%.2[1]f\u00a0TiB\x02، \x02، \x02وضعیت: " +
 	"%[1]s\x02%[1]s: %[2]q"
 
-var fiIndex = []uint32{ // 413 elements
+var fiIndex = []uint32{ // 415 elements
 	// Entry 0 - 1F
 	0x00000000, 0x00000006, 0x00000012, 0x00000062,
 	0x0000007b, 0x00000091, 0x000000f6, 0x0000013a,
@@ -2884,8 +2887,8 @@ var fiIndex = []uint32{ // 413 elements
 	0x00001292, 0x00001292, 0x00001292, 0x00001292,
 	0x00001292, 0x00001292, 0x00001292, 0x00001292,
 	0x00001292, 0x00001292, 0x00001292, 0x00001292,
-	0x00001292,
-} // Size: 1676 bytes
+	0x00001292, 0x00001292, 0x00001292,
+} // Size: 1684 bytes
 
 const fiData string = "" + // Size: 4754 bytes
 	"\x02Virhe\x04\x00\x01 \x07\x02Virhe:\x02(ei määrityksiä): suorita järjes" +
@@ -2962,7 +2965,7 @@ const fiData string = "" + // Size: 4754 bytes
 	"\x02%.2[1]f\u00a0KiB\x02%.2[1]f\u00a0MiB\x02%.2[1]f\u00a0GiB\x02%.2[1]f" +
 	"\u00a0TiB\x02Tila: %[1]s\x02%[1]s: %[2]q"
 
-var frIndex = []uint32{ // 413 elements
+var frIndex = []uint32{ // 415 elements
 	// Entry 0 - 1F
 	0x00000000, 0x00000007, 0x00000015, 0x00000054,
 	0x00000071, 0x00000091, 0x000000d9, 0x00000120,
@@ -3079,8 +3082,8 @@ var frIndex = []uint32{ // 413 elements
 	0x00001434, 0x00001434, 0x00001434, 0x00001434,
 	0x00001434, 0x00001434, 0x00001434, 0x00001434,
 	0x00001434, 0x00001434, 0x00001434, 0x00001434,
-	0x00001434,
-} // Size: 1676 bytes
+	0x00001434, 0x00001434, 0x00001434,
+} // Size: 1684 bytes
 
 const frData string = "" + // Size: 5172 bytes
 	"\x02Erreur\x04\x00\x01 \x09\x02Erreur :\x02(sans argument) : élever et i" +
@@ -3164,7 +3167,7 @@ const frData string = "" + // Size: 5172 bytes
 	"\u00a0Mio\x02%.2[1]f\u00a0Gio\x02%.2[1]f\u00a0Tio\x02 \x02État : %[1]s" +
 	"\x02%[1]s : %[2]q"
 
-var heIndex = []uint32{ // 413 elements
+var heIndex = []uint32{ // 415 elements
 	// Entry 0 - 1F
 	0x00000000, 0x0000000b, 0x0000001c, 0x00000070,
 	0x0000008b, 0x000000b0, 0x000000f8, 0x00000144,
@@ -3281,8 +3284,8 @@ var heIndex = []uint32{ // 413 elements
 	0x0000165f, 0x0000165f, 0x0000165f, 0x0000165f,
 	0x0000165f, 0x0000165f, 0x0000165f, 0x0000165f,
 	0x0000165f, 0x0000165f, 0x0000165f, 0x0000165f,
-	0x0000165f,
-} // Size: 1676 bytes
+	0x0000165f, 0x0000165f, 0x0000165f,
+} // Size: 1684 bytes
 
 const heData string = "" + // Size: 5727 bytes
 	"\x02שגיאה\x04\x00\x01 \x0c\x02שגיאה:\x02(ללא ארגומנט): העלאת הרשאות והתק" +
@@ -3347,7 +3350,7 @@ const heData string = "" + // Size: 5727 bytes
 	": ממתין למנהל המערכת\x02מצב: ממתין לשירות העדכון\x02שגיאה: %[1]v. אנא נס" +
 	"ה שוב.\x02מצב: הושלם!\x02מצב: %[1]s"
 
-var hiIndex = []uint32{ // 413 elements
+var hiIndex = []uint32{ // 415 elements
 	// Entry 0 - 1F
 	0x00000000, 0x00000013, 0x0000002c, 0x000000e1,
 	0x00000101, 0x00000131, 0x000001f7, 0x00000293,
@@ -3464,8 +3467,8 @@ var hiIndex = []uint32{ // 413 elements
 	0x000026be, 0x000026be, 0x000026be, 0x000026be,
 	0x000026be, 0x000026be, 0x000026be, 0x000026be,
 	0x000026be, 0x000026be, 0x000026be, 0x000026be,
-	0x000026be,
-} // Size: 1676 bytes
+	0x000026be, 0x000026be, 0x000026be,
+} // Size: 1684 bytes
 
 const hiData string = "" + // Size: 9918 bytes
 	"\x02त्रुटि\x04\x00\x01 \x14\x02त्रुटि:\x02(कोई आर्ग्युमेंट नहीं): अधिकार" +
@@ -3539,7 +3542,7 @@ const hiData string = "" + // Size: 9918 bytes
 	"्थिति: अद्यतनकर्ता सेवा की प्रतीक्षा में\x02त्रुटि: %[1]v. कृपया पुनः " +
 	"प्रयास करें।\x02स्थिति: पूर्ण!\x02स्थिति: %[1]s"
 
-var huIndex = []uint32{ // 413 elements
+var huIndex = []uint32{ // 415 elements
 	// Entry 0 - 1F
 	0x00000000, 0x00000005, 0x00000010, 0x00000068,
 	0x00000083, 0x0000009e, 0x000000df, 0x00000129,
@@ -3656,8 +3659,8 @@ var huIndex = []uint32{ // 413 elements
 	0x00001390, 0x00001390, 0x00001390, 0x00001390,
 	0x00001390, 0x00001390, 0x00001390, 0x00001390,
 	0x00001390, 0x00001390, 0x00001390, 0x00001390,
-	0x00001390,
-} // Size: 1676 bytes
+	0x00001390, 0x00001390, 0x00001390,
+} // Size: 1684 bytes
 
 const huData string = "" + // Size: 5008 bytes
 	"\x02Hiba\x04\x00\x01 \x06\x02Hiba:\x02(argumentum nélkül): jogosultságok" +
@@ -3735,7 +3738,7 @@ const huData string = "" + // Size: 5008 bytes
 	"\x02Hiba: %[1]v. Próbálja meg újra.\x02Állapot: Befejezve!\x02Állapot: %" +
 	"[1]s"
 
-var idIndex = []uint32{ // 413 elements
+var idIndex = []uint32{ // 415 elements
 	// Entry 0 - 1F
 	0x00000000, 0x0000000a, 0x0000001a, 0x00000057,
 	0x00000072, 0x00000084, 0x000000cf, 0x0000010e,
@@ -3852,8 +3855,8 @@ var idIndex = []uint32{ // 413 elements
 	0x00001115, 0x00001115, 0x00001115, 0x00001115,
 	0x00001115, 0x00001115, 0x00001115, 0x00001115,
 	0x00001115, 0x00001115, 0x00001115, 0x00001115,
-	0x00001115,
-} // Size: 1676 bytes
+	0x00001115, 0x00001115, 0x00001115,
+} // Size: 1684 bytes
 
 const idData string = "" + // Size: 4373 bytes
 	"\x02Kesalahan\x04\x00\x01 \x0b\x02Kesalahan:\x02(tidak ada argumen): nai" +
@@ -3926,7 +3929,7 @@ const idData string = "" + // Size: 4373 bytes
 	"kan coba lagi.\x02Status: Selesai!\x02%[1]d B\x02%.2[1]f KiB\x02%.2[1]f " +
 	"MiB\x02%.2[1]f GiB\x02%.2[1]f TiB\x02Status: %[1]s\x02%[1]s: %[2]q"
 
-var itIndex = []uint32{ // 413 elements
+var itIndex = []uint32{ // 415 elements
 	// Entry 0 - 1F
 	0x00000000, 0x00000007, 0x00000014, 0x00000051,
 	0x0000006a, 0x00000082, 0x000000ca, 0x00000109,
@@ -4043,8 +4046,8 @@ var itIndex = []uint32{ // 413 elements
 	0x0000131b, 0x0000131b, 0x0000131b, 0x0000131b,
 	0x0000131b, 0x0000131b, 0x0000131b, 0x0000131b,
 	0x0000131b, 0x0000131b, 0x0000131b, 0x0000131b,
-	0x0000131b,
-} // Size: 1676 bytes
+	0x0000131b, 0x0000131b, 0x0000131b,
+} // Size: 1684 bytes
 
 const itData string = "" + // Size: 4891 bytes
 	"\x02Errore\x04\x00\x01 \x08\x02Errore:\x02(nessun argomento): eleva e in" +
@@ -4125,7 +4128,7 @@ const itData string = "" + // Size: 4891 bytes
 	"\u00a0B\x02%.2[1]f\u00a0KiB\x02%.2[1]f\u00a0MiB\x02%.2[1]f\u00a0GiB\x02%" +
 	".2[1]f\u00a0TiB\x02 \x02Stato: %[1]s\x02%[1]s: %[2]q"
 
-var jaIndex = []uint32{ // 413 elements
+var jaIndex = []uint32{ // 415 elements
 	// Entry 0 - 1F
 	0x00000000, 0x0000000a, 0x0000001a, 0x00000077,
 	0x00000091, 0x000000b6, 0x00000102, 0x0000015c,
@@ -4242,8 +4245,8 @@ var jaIndex = []uint32{ // 413 elements
 	0x000015f2, 0x000015f2, 0x000015f2, 0x000015f2,
 	0x000015f2, 0x000015f2, 0x000015f2, 0x000015f2,
 	0x000015f2, 0x000015f2, 0x000015f2, 0x000015f2,
-	0x000015f2,
-} // Size: 1676 bytes
+	0x000015f2, 0x000015f2, 0x000015f2,
+} // Size: 1684 bytes
 
 const jaData string = "" + // Size: 5618 bytes
 	"\x02エラー\x04\x00\x01 \x0b\x02エラー:\x02(引数なし): 管理者権限でmanagerサービスをインストールしてくだ" +
@@ -4292,7 +4295,7 @@ const jaData string = "" + // Size: 5618 bytes
 	"\u00a0KiB\x02%.2[1]f\u00a0MiB\x02%.2[1]f\u00a0GiB\x02%.2[1]f\u00a0TiB" +
 	"\x02、\x02 \x02状態: %[1]s\x02%[1]s: %[2]q"
 
-var koIndex = []uint32{ // 413 elements
+var koIndex = []uint32{ // 415 elements
 	// Entry 0 - 1F
 	0x00000000, 0x00000007, 0x00000014, 0x0000004b,
 	0x00000062, 0x00000073, 0x000000bc, 0x0000010c,
@@ -4409,8 +4412,8 @@ var koIndex = []uint32{ // 413 elements
 	0x00001352, 0x00001352, 0x00001352, 0x00001352,
 	0x00001352, 0x00001352, 0x00001352, 0x00001352,
 	0x00001352, 0x00001352, 0x00001352, 0x00001352,
-	0x00001352,
-} // Size: 1676 bytes
+	0x00001352, 0x00001352, 0x00001352,
+} // Size: 1684 bytes
 
 const koData string = "" + // Size: 4946 bytes
 	"\x02오류\x04\x00\x01 \x08\x02오류:\x02(인수 없음): 관리자 서비스 상승 및 설치\x02사용: %[1]s " +
@@ -4458,7 +4461,7 @@ const koData string = "" + // Size: 4946 bytes
 	"\x02상태: 완료!\x02%[1]d\u00a0바이트\x02%.2[1]f\u00a0KiB\x02%.2[1]f\u00a0MiB" +
 	"\x02%.2[1]f\u00a0GiB\x02%.2[1]f\u00a0TiB\x02상태: %[1]s\x02%[1]s: %[2]q"
 
-var lbIndex = []uint32{ // 413 elements
+var lbIndex = []uint32{ // 415 elements
 	// Entry 0 - 1F
 	0x00000000, 0x00000007, 0x00000014, 0x0000006b,
 	0x00000086, 0x0000009e, 0x000000f2, 0x0000013b,
@@ -4575,8 +4578,8 @@ var lbIndex = []uint32{ // 413 elements
 	0x00001485, 0x00001485, 0x00001485, 0x00001485,
 	0x00001485, 0x00001485, 0x00001485, 0x00001485,
 	0x00001485, 0x00001485, 0x00001485, 0x00001485,
-	0x00001485,
-} // Size: 1676 bytes
+	0x00001485, 0x00001485, 0x00001485,
+} // Size: 1684 bytes
 
 const lbData string = "" + // Size: 5253 bytes
 	"\x02Feeler\x04\x00\x01 \x08\x02Feeler:\x02(Keen Argument): Als Administr" +
@@ -4661,7 +4664,7 @@ const lbData string = "" + // Size: 5253 bytes
 	"\x02%.2[1]f\u00a0MiB\x02%.2[1]f\u00a0GiB\x02%.2[1]f\u00a0TiB\x02, \x02, " +
 	"\x02Status: %[1]s\x02%[1]s: %[2]q"
 
-var nbIndex = []uint32{ // 413 elements
+var nbIndex = []uint32{ // 415 elements
 	// Entry 0 - 1F
 	0x00000000, 0x00000005, 0x00000010, 0x00000052,
 	0x00000067, 0x00000079, 0x000000b3, 0x00000100,
@@ -4778,8 +4781,8 @@ var nbIndex = []uint32{ // 413 elements
 	0x000010e3, 0x000010e3, 0x000010e3, 0x000010e3,
 	0x000010e3, 0x000010e3, 0x000010e3, 0x000010e3,
 	0x000010e3, 0x000010e3, 0x000010e3, 0x000010e3,
-	0x000010e3,
-} // Size: 1676 bytes
+	0x000010e3, 0x000010e3, 0x000010e3,
+} // Size: 1684 bytes
 
 const nbData string = "" + // Size: 4323 bytes
 	"\x02Feil\x04\x00\x01 \x06\x02Feil:\x02(ingen argument): hev rettigheter " +
@@ -4852,7 +4855,7 @@ const nbData string = "" + // Size: 4323 bytes
 	"nter på oppdateringstjenesten\x02Feil: %[1]v. Prøv igjen.\x02Status: Ful" +
 	"lført!"
 
-var nlIndex = []uint32{ // 413 elements
+var nlIndex = []uint32{ // 415 elements
 	// Entry 0 - 1F
 	0x00000000, 0x0000000c, 0x00000017, 0x0000005a,
 	0x00000078, 0x0000008f, 0x000000d2, 0x00000115,
@@ -4969,8 +4972,8 @@ var nlIndex = []uint32{ // 413 elements
 	0x0000122f, 0x0000122f, 0x0000122f, 0x0000122f,
 	0x0000122f, 0x0000122f, 0x0000122f, 0x0000122f,
 	0x0000122f, 0x0000122f, 0x0000122f, 0x0000122f,
-	0x0000122f,
-} // Size: 1676 bytes
+	0x0000122f, 0x0000122f, 0x0000122f,
+} // Size: 1684 bytes
 
 const nlData string = "" + // Size: 4655 bytes
 	"\x02Foutmelding\x04\x00\x01 \x06\x02Fout:\x02(geen argumenten): Verhoog " +
@@ -5048,7 +5051,7 @@ const nlData string = "" + // Size: 4655 bytes
 	" Voltooid!\x02%[1]d\u00a0B\x02%.2[1]f\u00a0KiB\x02%.2[1]f\u00a0MiB\x02%." +
 	"2[1]f\u00a0GiB\x02%.2[1]f\u00a0TiB\x02 \x02Status: %[1]s\x02%[1]s: %[2]q"
 
-var nn_NOIndex = []uint32{ // 413 elements
+var nn_NOIndex = []uint32{ // 415 elements
 	// Entry 0 - 1F
 	0x00000000, 0x00000005, 0x00000010, 0x0000004b,
 	0x00000060, 0x00000071, 0x000000ab, 0x000000f4,
@@ -5165,8 +5168,8 @@ var nn_NOIndex = []uint32{ // 413 elements
 	0x000010fd, 0x000010fd, 0x000010fd, 0x000010fd,
 	0x000010fd, 0x000010fd, 0x000010fd, 0x000010fd,
 	0x000010fd, 0x000010fd, 0x000010fd, 0x000010fd,
-	0x000010fd,
-} // Size: 1676 bytes
+	0x000010fd, 0x000010fd, 0x000010fd,
+} // Size: 1684 bytes
 
 const nn_NOData string = "" + // Size: 4349 bytes
 	"\x02Feil\x04\x00\x01 \x06\x02Feil:\x02(ingen argument): hev rettar og in" +
@@ -5239,7 +5242,7 @@ const nn_NOData string = "" + // Size: 4349 bytes
 	"Status: Ventar på oppdateringstenesta\x02Feil: %[1]v. Prøv igjen.\x02Sta" +
 	"tus: Ferdig!"
 
-var pa_INIndex = []uint32{ // 413 elements
+var pa_INIndex = []uint32{ // 415 elements
 	// Entry 0 - 1F
 	0x00000000, 0x00000010, 0x00000026, 0x000000c0,
 	0x000000e0, 0x0000010d, 0x0000019a, 0x00000238,
@@ -5356,8 +5359,8 @@ var pa_INIndex = []uint32{ // 413 elements
 	0x00002652, 0x00002652, 0x00002652, 0x00002652,
 	0x00002652, 0x00002652, 0x00002652, 0x00002652,
 	0x00002652, 0x00002652, 0x00002652, 0x00002652,
-	0x00002652,
-} // Size: 1676 bytes
+	0x00002652, 0x00002652, 0x00002652,
+} // Size: 1684 bytes
 
 const pa_INData string = "" + // Size: 9810 bytes
 	"\x02ਗ਼ਲਤੀ\x04\x00\x01 \x11\x02ਗ਼ਲਤੀ:\x02(ਕੋਈ ਆਰਗੂਮੈਂਟ ਨਹੀਂ): ਅਧਿਕਾਰ ਉਚਾਈ" +
@@ -5431,7 +5434,7 @@ const pa_INData string = "" + // Size: 9810 bytes
 	"\x02%[1]d\u00a0B\x02%.2[1]f\u00a0KiB\x02%.2[1]f\u00a0MiB\x02%.2[1]f" +
 	"\u00a0GiB\x02%.2[1]f\u00a0TiB\x02ਸਥਿਤੀ: %[1]s\x02%[1]s: %[2]q"
 
-var plIndex = []uint32{ // 413 elements
+var plIndex = []uint32{ // 415 elements
 	// Entry 0 - 1F
 	0x00000000, 0x00000007, 0x00000014, 0x0000005c,
 	0x00000074, 0x0000008b, 0x000000d9, 0x00000117,
@@ -5548,8 +5551,8 @@ var plIndex = []uint32{ // 413 elements
 	0x00001444, 0x00001444, 0x00001444, 0x00001444,
 	0x00001444, 0x00001444, 0x00001444, 0x00001444,
 	0x00001444, 0x00001444, 0x00001444, 0x00001444,
-	0x00001444,
-} // Size: 1676 bytes
+	0x00001444, 0x00001444, 0x00001444,
+} // Size: 1684 bytes
 
 const plData string = "" + // Size: 5188 bytes
 	"\x02Błąd\x04\x00\x01 \x08\x02Błąd:\x02(brak argumentu): Podnieś uprawnie" +
@@ -5634,7 +5637,7 @@ const plData string = "" + // Size: 5188 bytes
 	"\u00a0MiB\x02%.2[1]f\u00a0GiB\x02%.2[1]f\u00a0TiB\x02Status: %[1]s\x02%[" +
 	"1]s: %[2]q"
 
-var pt_BRIndex = []uint32{ // 413 elements
+var pt_BRIndex = []uint32{ // 415 elements
 	// Entry 0 - 1F
 	0x00000000, 0x00000005, 0x00000010, 0x0000004a,
 	0x0000005e, 0x0000007b, 0x000000cd, 0x0000010d,
@@ -5751,8 +5754,8 @@ var pt_BRIndex = []uint32{ // 413 elements
 	0x000012f1, 0x000012f1, 0x000012f1, 0x000012f1,
 	0x000012f1, 0x000012f1, 0x000012f1, 0x000012f1,
 	0x000012f1, 0x000012f1, 0x000012f1, 0x000012f1,
-	0x000012f1,
-} // Size: 1676 bytes
+	0x000012f1, 0x000012f1, 0x000012f1,
+} // Size: 1684 bytes
 
 const pt_BRData string = "" + // Size: 4849 bytes
 	"\x02Erro\x04\x00\x01 \x06\x02Erro:\x02(sem argumento): elevar e instalar" +
@@ -5830,7 +5833,7 @@ const pt_BRData string = "" + // Size: 4849 bytes
 	"tatus: concluído!\x02%[1]d B\x02%.2[1]f KiB\x02%.2[1]f MiB\x02%.2[1]f Gi" +
 	"B\x02%.2[1]f TiB\x02Status: %[1]s\x02%[1]s: %[2]q"
 
-var pt_PTIndex = []uint32{ // 413 elements
+var pt_PTIndex = []uint32{ // 415 elements
 	// Entry 0 - 1F
 	0x00000000, 0x00000005, 0x00000010, 0x00000045,
 	0x00000062, 0x00000080, 0x000000d2, 0x00000112,
@@ -5947,8 +5950,8 @@ var pt_PTIndex = []uint32{ // 413 elements
 	0x00001330, 0x00001330, 0x00001330, 0x00001330,
 	0x00001330, 0x00001330, 0x00001330, 0x00001330,
 	0x00001330, 0x00001330, 0x00001330, 0x00001330,
-	0x00001330,
-} // Size: 1676 bytes
+	0x00001330, 0x00001330, 0x00001330,
+} // Size: 1684 bytes
 
 const pt_PTData string = "" + // Size: 4912 bytes
 	"\x02Erro\x04\x00\x01 \x06\x02Erro:\x02(sem argumento): elevar e instalar" +
@@ -6027,7 +6030,7 @@ const pt_PTData string = "" + // Size: 4912 bytes
 	"lo serviço de actualização\x02Erro: %[1]v. Tente novamente.\x02Estado: c" +
 	"oncluído!\x02Estado: %[1]s"
 
-var roIndex = []uint32{ // 413 elements
+var roIndex = []uint32{ // 415 elements
 	// Entry 0 - 1F
 	0x00000000, 0x00000007, 0x00000014, 0x0000006a,
 	0x00000084, 0x0000009f, 0x000000de, 0x00000127,
@@ -6144,8 +6147,8 @@ var roIndex = []uint32{ // 413 elements
 	0x0000143d, 0x0000143d, 0x0000143d, 0x0000143d,
 	0x0000143d, 0x0000143d, 0x0000143d, 0x0000143d,
 	0x0000143d, 0x0000143d, 0x0000143d, 0x0000143d,
-	0x0000143d,
-} // Size: 1676 bytes
+	0x0000143d, 0x0000143d, 0x0000143d,
+} // Size: 1684 bytes
 
 const roData string = "" + // Size: 5181 bytes
 	"\x02Eroare\x04\x00\x01 \x08\x02Eroare:\x02(fără argument): obținere drep" +
@@ -6229,7 +6232,7 @@ const roData string = "" + // Size: 5181 bytes
 	"finalizată!\x02%[1]d\u00a0B\x02%.2[1]f\u00a0KiB\x02%.2[1]f\u00a0MiB\x02%" +
 	".2[1]f\u00a0GiB\x02%.2[1]f\u00a0TiB\x02Stare: %[1]s\x02%[1]s: %[2]q"
 
-var ruIndex = []uint32{ // 413 elements
+var ruIndex = []uint32{ // 415 elements
 	// Entry 0 - 1F
 	0x00000000, 0x0000000d, 0x00000020, 0x000000bc,
 	0x000000e7, 0x0000011a, 0x0000017d, 0x000001fd,
@@ -6346,8 +6349,8 @@ var ruIndex = []uint32{ // 413 elements
 	0x00001ed8, 0x00001ed8, 0x00001ed8, 0x00001ed8,
 	0x00001ed8, 0x00001ed8, 0x00001ed8, 0x00001ed8,
 	0x00001ed8, 0x00001ed8, 0x00001ed8, 0x00001ed8,
-	0x00001ed8,
-} // Size: 1676 bytes
+	0x00001ed8, 0x00001ed8, 0x00001ed8,
+} // Size: 1684 bytes
 
 const ruData string = "" + // Size: 7896 bytes
 	"\x02Ошибка\x04\x00\x01 \x0e\x02Ошибка:\x02(нет аргумента): получить прав" +
@@ -6428,7 +6431,7 @@ const ruData string = "" + // Size: 7896 bytes
 	"\x02%.2[1]f КиБ\x02%.2[1]f МиБ\x02%.2[1]f ГиБ\x02%.2[1]f ТиБ\x02Статус: " +
 	"%[1]s\x02%[1]s: %[2]q"
 
-var si_LKIndex = []uint32{ // 413 elements
+var si_LKIndex = []uint32{ // 415 elements
 	// Entry 0 - 1F
 	0x00000000, 0x00000013, 0x00000026, 0x000000bc,
 	0x000000df, 0x0000010f, 0x000001aa, 0x00000236,
@@ -6545,8 +6548,8 @@ var si_LKIndex = []uint32{ // 413 elements
 	0x00002701, 0x00002701, 0x00002701, 0x00002701,
 	0x00002701, 0x00002701, 0x00002701, 0x00002701,
 	0x00002701, 0x00002701, 0x00002701, 0x00002701,
-	0x00002701,
-} // Size: 1676 bytes
+	0x00002701, 0x00002701, 0x00002701,
+} // Size: 1684 bytes
 
 const si_LKData string = "" + // Size: 9985 bytes
 	"\x02දෝෂයකි\x04\x00\x01 \x0e\x02දෝෂය:\x02(තර්කයක් නැත): කළමනාකරු සේවාව ඉහ" +
@@ -6622,7 +6625,7 @@ const si_LKData string = "" + // Size: 9985 bytes
 	"යි!\x02බ.\u00a0%[1]d\x02කි.බ. %.2[1]f\x02මෙ.බ. %.2[1]f\x02ගි.බ. %.2[1]" +
 	"f\x02ටෙ.බ. %.2[1]f\x02තත්\u200dවය: %[1]s\x02%[1]s: %[2]q"
 
-var skIndex = []uint32{ // 413 elements
+var skIndex = []uint32{ // 415 elements
 	// Entry 0 - 1F
 	0x00000000, 0x00000006, 0x00000012, 0x0000006a,
 	0x00000084, 0x000000a3, 0x000000dd, 0x0000012a,
@@ -6739,8 +6742,8 @@ var skIndex = []uint32{ // 413 elements
 	0x000013df, 0x000013df, 0x000013df, 0x000013df,
 	0x000013df, 0x000013df, 0x000013df, 0x000013df,
 	0x000013df, 0x000013df, 0x000013df, 0x000013df,
-	0x000013df,
-} // Size: 1676 bytes
+	0x000013df, 0x000013df, 0x000013df,
+} // Size: 1684 bytes
 
 const skData string = "" + // Size: 5087 bytes
 	"\x02Chyba\x04\x00\x01 \x07\x02Chyba:\x02(bez argumentu): získať administ" +
@@ -6821,7 +6824,7 @@ const skData string = "" + // Size: 5087 bytes
 	"]d\u00a0B\x02%.2[1]f\u00a0KiB\x02%.2[1]f\u00a0MiB\x02%.2[1]f\u00a0GiB" +
 	"\x02%.2[1]f\u00a0TiB\x02 \x02Stav: %[1]s\x02%[1]s: %[2]q"
 
-var slIndex = []uint32{ // 413 elements
+var slIndex = []uint32{ // 415 elements
 	// Entry 0 - 1F
 	0x00000000, 0x00000007, 0x00000014, 0x00000065,
 	0x0000007d, 0x00000096, 0x000000ce, 0x00000114,
@@ -6938,8 +6941,8 @@ var slIndex = []uint32{ // 413 elements
 	0x00001290, 0x00001290, 0x00001290, 0x00001290,
 	0x00001290, 0x00001290, 0x00001290, 0x00001290,
 	0x00001290, 0x00001290, 0x00001290, 0x00001290,
-	0x00001290,
-} // Size: 1676 bytes
+	0x00001290, 0x00001290, 0x00001290,
+} // Size: 1684 bytes
 
 const slData string = "" + // Size: 4752 bytes
 	"\x02Napaka\x04\x00\x01 \x08\x02Napaka:\x02(brez argumenta): povzdigni na" +
@@ -7020,7 +7023,7 @@ const slData string = "" + // Size: 4752 bytes
 	"\u00a0MiB\x02%.2[1]f\u00a0GiB\x02%.2[1]f\u00a0TiB\x02 \x02Status: %[1]s" +
 	"\x02%[1]s: %[2]q"
 
-var srIndex = []uint32{ // 413 elements
+var srIndex = []uint32{ // 415 elements
 	// Entry 0 - 1F
 	0x00000000, 0x0000000d, 0x00000020, 0x0000009d,
 	0x000000be, 0x000000e9, 0x00000144, 0x000001af,
@@ -7137,8 +7140,8 @@ var srIndex = []uint32{ // 413 elements
 	0x00001d4e, 0x00001d4e, 0x00001d4e, 0x00001d4e,
 	0x00001d4e, 0x00001d4e, 0x00001d4e, 0x00001d4e,
 	0x00001d4e, 0x00001d4e, 0x00001d4e, 0x00001d4e,
-	0x00001d4e,
-} // Size: 1676 bytes
+	0x00001d4e, 0x00001d4e, 0x00001d4e,
+} // Size: 1684 bytes
 
 const srData string = "" + // Size: 7502 bytes
 	"\x02Грешка\x04\x00\x01 \x0e\x02Грешка:\x02(без аргумента): повишава прив" +
@@ -7214,7 +7217,7 @@ const srData string = "" + // Size: 7502 bytes
 	"ус: Чека се администратор\x02Статус: Чека се сервис за ажурирање\x02Гре" +
 	"шка: %[1]v. Покушајте поново.\x02Статус: Завршено!\x02Статус: %[1]s"
 
-var sv_SEIndex = []uint32{ // 413 elements
+var sv_SEIndex = []uint32{ // 415 elements
 	// Entry 0 - 1F
 	0x00000000, 0x00000004, 0x0000000e, 0x00000046,
 	0x00000062, 0x00000079, 0x000000b9, 0x00000109,
@@ -7331,8 +7334,8 @@ var sv_SEIndex = []uint32{ // 413 elements
 	0x0000117f, 0x0000117f, 0x0000117f, 0x0000117f,
 	0x0000117f, 0x0000117f, 0x0000117f, 0x0000117f,
 	0x0000117f, 0x0000117f, 0x0000117f, 0x0000117f,
-	0x0000117f,
-} // Size: 1676 bytes
+	0x0000117f, 0x0000117f, 0x0000117f,
+} // Size: 1684 bytes
 
 const sv_SEData string = "" + // Size: 4479 bytes
 	"\x02Fel\x04\x00\x01 \x05\x02Fel:\x02(inget argument): höj och installera" +
@@ -7406,7 +7409,7 @@ const sv_SEData string = "" + // Size: 4479 bytes
 	"\x02%[1]d\u00a0B\x02%.2[1]f\u00a0KiB\x02%.2[1]f\u00a0MiB\x02%.2[1]f" +
 	"\u00a0GiB\x02%.2[1]f\u00a0TiB\x02Status: %[1]s\x02%[1]s: %[2]q"
 
-var trIndex = []uint32{ // 413 elements
+var trIndex = []uint32{ // 415 elements
 	// Entry 0 - 1F
 	0x00000000, 0x00000005, 0x00000010, 0x0000005e,
 	0x00000078, 0x00000094, 0x000000d8, 0x0000011d,
@@ -7523,8 +7526,8 @@ var trIndex = []uint32{ // 413 elements
 	0x00001204, 0x00001204, 0x00001204, 0x00001204,
 	0x00001204, 0x00001204, 0x00001204, 0x00001204,
 	0x00001204, 0x00001204, 0x00001204, 0x00001204,
-	0x00001204,
-} // Size: 1676 bytes
+	0x00001204, 0x00001204, 0x00001204,
+} // Size: 1684 bytes
 
 const trData string = "" + // Size: 4612 bytes
 	"\x02Hata\x04\x00\x01 \x06\x02Hata:\x02(parametre belirtilmediyse): gerek" +
@@ -7597,7 +7600,7 @@ const trData string = "" + // Size: 4612 bytes
 	"1]f\u00a0KiB\x02%.2[1]f\u00a0MiB\x02%.2[1]f\u00a0GiB\x02%.2[1]f\u00a0TiB" +
 	"\x02Durum: %[1]s\x02%[1]s: %[2]q"
 
-var ukIndex = []uint32{ // 413 elements
+var ukIndex = []uint32{ // 415 elements
 	// Entry 0 - 1F
 	0x00000000, 0x0000000f, 0x00000024, 0x000000a3,
 	0x000000cc, 0x000000ff, 0x00000159, 0x000001d3,
@@ -7714,8 +7717,8 @@ var ukIndex = []uint32{ // 413 elements
 	0x00001dcc, 0x00001dcc, 0x00001dcc, 0x00001dcc,
 	0x00001dcc, 0x00001dcc, 0x00001dcc, 0x00001dcc,
 	0x00001dcc, 0x00001dcc, 0x00001dcc, 0x00001dcc,
-	0x00001dcc,
-} // Size: 1676 bytes
+	0x00001dcc, 0x00001dcc, 0x00001dcc,
+} // Size: 1684 bytes
 
 const ukData string = "" + // Size: 7628 bytes
 	"\x02Помилка\x04\x00\x01 \x10\x02Помилка:\x02(немає аргумента): отримати " +
@@ -7794,7 +7797,7 @@ const ukData string = "" + // Size: 7628 bytes
 	"з.\x02Стан: Завершено\x02%[1]d Б\x02%.2[1]f КБ\x02%.2[1]f МБ\x02%.2[1]f" +
 	" ГБ\x02%.2[1]f TiB\x02Статус: %[1]s\x02%[1]s: %[2]q"
 
-var viIndex = []uint32{ // 413 elements
+var viIndex = []uint32{ // 415 elements
 	// Entry 0 - 1F
 	0x00000000, 0x00000006, 0x00000012, 0x0000005f,
 	0x0000007b, 0x00000094, 0x000000f2, 0x00000145,
@@ -7911,8 +7914,8 @@ var viIndex = []uint32{ // 413 elements
 	0x000013a5, 0x000013a5, 0x000013a5, 0x000013a5,
 	0x000013a5, 0x000013a5, 0x000013a5, 0x000013a5,
 	0x000013a5, 0x000013a5, 0x000013a5, 0x000013a5,
-	0x000013a5,
-} // Size: 1676 bytes
+	0x000013a5, 0x000013a5, 0x000013a5,
+} // Size: 1684 bytes
 
 const viData string = "" + // Size: 5029 bytes
 	"\x02Lỗi\x04\x00\x01 \x07\x02Lỗi:\x02(không có tham số): nâng quyền và cà" +
@@ -7980,7 +7983,7 @@ const viData string = "" + // Size: 5029 bytes
 	"i.\x02Trạng thái: Hoàn tất!\x02%[1]d B\x02%.2[1]f KiB\x02%.2[1]f MiB\x02" +
 	"%.2[1]f GiB\x02%.2[1]f TiB\x02Trạng thái: %[1]s"
 
-var zh_CNIndex = []uint32{ // 413 elements
+var zh_CNIndex = []uint32{ // 415 elements
 	// Entry 0 - 1F
 	0x00000000, 0x00000007, 0x00000014, 0x0000003d,
 	0x00000054, 0x00000064, 0x00000098, 0x000000d6,
@@ -8097,8 +8100,8 @@ var zh_CNIndex = []uint32{ // 413 elements
 	0x00000e0d, 0x00000e0d, 0x00000e0d, 0x00000e0d,
 	0x00000e0d, 0x00000e0d, 0x00000e0d, 0x00000e0d,
 	0x00000e0d, 0x00000e0d, 0x00000e0d, 0x00000e0d,
-	0x00000e0d,
-} // Size: 1676 bytes
+	0x00000e0d, 0x00000e0d, 0x00000e0d,
+} // Size: 1684 bytes
 
 const zh_CNData string = "" + // Size: 3597 bytes
 	"\x02错误\x04\x00\x01 \x08\x02错误:\x02(无参数): 提升并安装管理服务\x02用法: %[1]s [\x0a%[2" +
@@ -8137,7 +8140,7 @@ const zh_CNData string = "" + // Size: 3597 bytes
 	"\x02状态: 完成！\x02%[1]d B\x02%.2[1]f\u00a0KiB\x02%.2[1]f\u00a0MiB\x02%.2[1]" +
 	"f\u00a0GiB\x02%.2[1]f\u00a0TiB\x02、\x02 \x02状态: %[1]s\x02%[1]s：%[2]q"
 
-var zh_TWIndex = []uint32{ // 413 elements
+var zh_TWIndex = []uint32{ // 415 elements
 	// Entry 0 - 1F
 	0x00000000, 0x00000007, 0x00000016, 0x00000046,
 	0x00000065, 0x00000075, 0x000000b3, 0x000000ee,
@@ -8254,8 +8257,8 @@ var zh_TWIndex = []uint32{ // 413 elements
 	0x00000f25, 0x00000f25, 0x00000f25, 0x00000f25,
 	0x00000f25, 0x00000f25, 0x00000f25, 0x00000f25,
 	0x00000f25, 0x00000f25, 0x00000f25, 0x00000f25,
-	0x00000f25,
-} // Size: 1676 bytes
+	0x00000f25, 0x00000f25, 0x00000f25,
+} // Size: 1684 bytes
 
 const zh_TWData string = "" + // Size: 3877 bytes
 	"\x02錯誤\x04\x00\x01 \x0a\x02錯誤：\x02(無參數)：提升權限並安裝管理服務\x02使用方法： %[1]s [\x0a" +
@@ -8296,4 +8299,4 @@ const zh_TWData string = "" + // Size: 3877 bytes
 	"%.2[1]f\u00a0KiB\x02%.2[1]f\u00a0MiB\x02%.2[1]f\u00a0GiB\x02%.2[1]f" +
 	"\u00a0TiB\x02、\x02 \x02[狀態] %[1]s\x02%[1]s： %[2]q"
 
-	// Total table size 298188 bytes (291KiB); checksum: 238BFCC8
+	// Total table size 298570 bytes (291KiB); checksum: 55D09A23

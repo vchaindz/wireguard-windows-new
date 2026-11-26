@@ -798,6 +798,38 @@ func (model *appModel) importFiles(owner walk.Form, paths []string) {
 	}()
 }
 
+// exportTunnel saves the configuration of one tunnel as a .conf file, which holds its private key like the zip of
+// all tunnels does.
+func (model *appModel) exportTunnel(owner walk.Form, name string) {
+	entry := model.entry(name)
+	if entry == nil {
+		return
+	}
+	dlg := walk.FileDialog{
+		Filter:   l18n.Sprintf("Configuration Files (*.conf)|*.conf"),
+		FilePath: name + ".conf",
+		Title:    l18n.Sprintf("Export tunnel ‘%s’", name),
+	}
+	if ok, _ := dlg.ShowSave(owner); !ok {
+		return
+	}
+	if !strings.HasSuffix(strings.ToLower(dlg.FilePath), ".conf") {
+		dlg.FilePath += ".conf"
+	}
+
+	tunnel := entry.tunnel
+	writeFileWithOverwriteHandling(owner, dlg.FilePath, func(file *os.File) error {
+		cfg, err := tunnel.StoredConfig()
+		if err != nil {
+			return fmt.Errorf("exportTunnel: tunnel.StoredConfig failed: %w", err)
+		}
+		if _, err := file.WriteString(cfg.ToWgQuick()); err != nil {
+			return fmt.Errorf("exportTunnel: writing the configuration failed: %w", err)
+		}
+		return nil
+	})
+}
+
 func (model *appModel) exportTunnels(owner walk.Form) {
 	dlg := walk.FileDialog{
 		Filter: l18n.Sprintf("Configuration ZIP Files (*.zip)|*.zip"),

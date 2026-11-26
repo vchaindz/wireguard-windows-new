@@ -2031,6 +2031,26 @@
             ]
         },
         {
+            "id": "Configuration Files (*.conf)|*.conf",
+            "message": "Configuration Files (*.conf)|*.conf",
+            "translation": ""
+        },
+        {
+            "id": "Export tunnel ‘{Name}’",
+            "message": "Export tunnel ‘{Name}’",
+            "translation": "",
+            "placeholders": [
+                {
+                    "id": "Name",
+                    "string": "%[1]s",
+                    "type": "string",
+                    "underlyingType": "string",
+                    "argNum": 1,
+                    "expr": "name"
+                }
+            ]
+        },
+        {
             "id": "Configuration ZIP Files (*.zip)|*.zip",
             "message": "Configuration ZIP Files (*.zip)|*.zip",
             "translation": "कॉन्फ़िगरेशन ZIP फ़ाइलें (*.zip)|*.zip",

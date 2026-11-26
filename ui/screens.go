@@ -679,9 +679,10 @@ func (mtw *ManageTunnelsWindow) buildDetails(s *scene, width, height float64) {
 	}
 	mainWidth := inner
 	if IsAdmin {
-		mainWidth = inner - 88 - 104
+		mainWidth = inner - 88 - 96 - 104
 		s.button("edit", left+mainWidth+8, footerY+18, 80, 44, l18n.Sprintf("Edit"), buttonOutline, func() { model.editTunnel(mtw, name) })
-		s.button("remove", left+mainWidth+96, footerY+18, 96, 44, l18n.Sprintf("Remove"), buttonDanger, func() {
+		s.button("export-one", left+mainWidth+96, footerY+18, 88, 44, l18n.Sprintf("Export"), buttonOutline, func() { model.exportTunnel(mtw, name) })
+		s.button("remove", left+mainWidth+192, footerY+18, 96, 44, l18n.Sprintf("Remove"), buttonDanger, func() {
 			if model.deleteTunnel(mtw, name) {
 				mtw.showScreen(screenStatus)
 			}
